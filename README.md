@@ -1,5 +1,8 @@
 # Python Programming Course - Complete Task List
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+
 A comprehensive auto-graded Python programming course with **168 exercises** across 6 parts.
 
 > 🚀 **No installation required!** Use GitHub Codespaces to start coding in your browser instantly.
@@ -372,6 +375,18 @@ cat ../../.progress/marksheet.md
 3. **Part 4**: Work with lists and iteration
 4. **Part 5**: Advanced data structures (dictionaries, tuples)
 5. **Part 6**: File I/O and error handling
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+### What this means:
+- ✅ Free to use for personal and educational purposes
+- ✅ Free to modify and distribute
+- ✅ Free to use in commercial projects
+- ✅ No warranty provided
 
 ---
 
