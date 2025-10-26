@@ -5,7 +5,7 @@
 
 ***A comprehensive auto-graded Python programming tasks repo with **168 exercises** across 6 parts.***
 
-This repository contains the aligned, auto-graded exercises for the course [Fundamentals of Programming — Python](https://dipaish.github.io/programming-24/)” which is adapted from the University of Helsinki’s [Introduction to Programming (Programming MOOC)](https://programming-24.mooc.fi/) course.
+This repository contains the aligned, auto-graded exercises for the course [Fundamentals of Programming - Python](https://dipaish.github.io/programming-24/)” which is adapted from the University of Helsinki’s [Introduction to Programming (Programming MOOC)](https://programming-24.mooc.fi/) course.
 
 > 🚀 **No installation required!** Use GitHub Codespaces to start coding in your browser instantly.
 
