@@ -1,0 +1,7 @@
+Pancakes
+milk;eggs;flour;sugar;butter
+15
+
+Muffins
+milk;eggs;flour;sugar;butter;baking powder
+20

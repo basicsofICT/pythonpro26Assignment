@@ -1,0 +1,52 @@
+{
+  "name": "Python Programming Course",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye",
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "njpwerner.autodocstring",
+        "KevinRose.vsc-python-indent",
+        "donjayamanne.python-environment-manager",
+        "github.copilot"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": false,
+        "python.formatting.provider": "none",
+        "python.analysis.typeCheckingMode": "off",
+        "python.analysis.autoImportCompletions": true,
+        "editor.formatOnSave": false,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "workbench.colorTheme": "Default Dark+",
+        "workbench.startupEditor": "readme"
+      }
+    }
+  },
+
+  "postCreateCommand": "python --version && pip install --upgrade pip",
+  
+  "forwardPorts": [],
+  
+  "portsAttributes": {},
+
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "latest"
+    }
+  },
+
+  "remoteUser": "vscode",
+  
+  "mounts": [
+    "source=${localWorkspaceFolder}/.progress,target=${containerWorkspaceFolder}/.progress,type=bind,consistency=cached"
+  ]
+}
