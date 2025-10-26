@@ -36,7 +36,12 @@
   
   "forwardPorts": [],
   
-  "portsAttributes": {},
+  "portsAttributes": {
+    "4735": {
+      "label": "Internal service",
+      "onAutoForward": "ignore"
+    }
+  },
 
   "features": {
     "ghcr.io/devcontainers/features/git:1": {
