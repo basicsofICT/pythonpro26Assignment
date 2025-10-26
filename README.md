@@ -1,11 +1,14 @@
 # Python Programming Course - Complete Task List
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Based on UH MOOC](https://img.shields.io/badge/Based%20on-University%20of%20Helsinki-orange.svg)](https://programming-24.mooc.fi/)
 
 A comprehensive auto-graded Python programming course with **168 exercises** across 6 parts.
 
 > 🚀 **No installation required!** Use GitHub Codespaces to start coding in your browser instantly.
+
+> 📚 **Based on:** This course is adapted from the [Introduction to Programming MOOC](https://programming-24.mooc.fi/) by the **University of Helsinki**, enhanced with auto-grading, progress tracking, and modern development tools.
 
 ## 📊 Course Overview
 
@@ -378,15 +381,36 @@ cat ../../.progress/marksheet.md
 
 ---
 
-## 📄 License
+## 📄 License & Attribution
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License** - see the [LICENSE](LICENSE) file for details.
 
-### What this means:
-- ✅ Free to use for personal and educational purposes
-- ✅ Free to modify and distribute
-- ✅ Free to use in commercial projects
-- ✅ No warranty provided
+### Based on University of Helsinki MOOC
+
+This course is adapted from the **"Introduction to Programming"** course (Programming MOOC - Massive Open Online Course) by the **University of Helsinki**.
+
+- **Original Course:** [https://programming-24.mooc.fi/](https://programming-24.mooc.fi/)
+- **Original Authors:** University of Helsinki, Department of Computer Science
+- **Original License:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+### Adaptations in This Repository
+
+- ✅ Auto-grading system with persistent progress tracking
+- ✅ Academic integrity checks (no implementation detection)
+- ✅ 4-scale grading system (Fail/1/2/3)
+- ✅ GitHub Codespaces configuration for zero-installation setup
+- ✅ Comprehensive setup guides for Windows, macOS, and Ubuntu
+- ✅ Repository restructuring and enhanced documentation
+
+### What This License Means:
+
+- ✅ **Free to use** for personal and educational purposes
+- ✅ **Free to modify and distribute** with proper attribution
+- ❌ **Not for commercial use** without permission
+- 🔄 **Share-alike** - derivatives must use the same license
+- 📝 **Attribution required** - credit University of Helsinki and this adaptation
+
+For the full legal text, visit: [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
 
