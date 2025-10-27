@@ -5,7 +5,7 @@
 
 ***A comprehensive auto-graded Python programming tasks repo with **168 exercises** across 6 parts.***
 
-This repository contains the aligned, auto-graded exercises for the course [Fundamentals of Programming - Python](https://dipaish.github.io/programming-24/)” which is adapted from the University of Helsinki’s [Introduction to Programming (Programming MOOC)](https://programming-24.mooc.fi/) course.
+This repository contains the aligned, auto-graded exercises for the course [Fundamentals of Programming - Python](https://dipaish.github.io/programming-24/) which is adapted from the University of Helsinki’s [Introduction to Programming (Programming MOOC)](https://programming-24.mooc.fi/) course.
 
 > 🚀 **No installation required!** Use GitHub Codespaces to start coding in your browser instantly.
 
@@ -383,14 +383,6 @@ cat ../../.progress/marksheet.md
 ## 📄 License & Attribution
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License** - see the [LICENSE](LICENSE) file for details.
-
-### Based on University of Helsinki MOOC
-
-This course is adapted from the **"Introduction to Programming"** course (Programming MOOC - Massive Open Online Course) by the **University of Helsinki**.
-
-- **Original Course:** [https://programming-24.mooc.fi/](https://programming-24.mooc.fi/)
-- **Original Authors:** University of Helsinki, Department of Computer Science
-- **Original License:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ### Adaptations in This Repository
 
