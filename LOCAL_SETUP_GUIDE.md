@@ -4,6 +4,7 @@ This guide will walk you through setting up a complete local development environ
 
 > **💡 Don't want to install anything?** Use [GitHub Codespaces](.devcontainer/README.md) instead! It's free, browser-based, and requires zero setup.
 
+> **Note:** You may already have VS Code installed, logged in with GitHub, and Python installed locally. Depending on your situation, some or all of the following steps may not be required. You can complete all tasks using [GitHub Codespaces](.devcontainer/README.md) directly in your browser, especially for the first part of the course. However, we recommend setting up a local environment as well for a better learning experience and offline access.
 ---
 
 ## 📋 Table of Contents
@@ -368,72 +369,8 @@ Signing in syncs your settings and enables GitHub features.
 
 ---
 
-## 7. Clone This Repository
 
-Now you're ready to get the course files!
-
-### Method A: Using VS Code (Recommended)
-
-1. **Open VS Code**
-
-2. **Open Command Palette:**
-   - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS)
-
-3. **Type:** `Git: Clone`
-
-4. **Enter Repository URL:**
-   ```
-   https://github.com/YOUR_USERNAME/pythonpro26.git
-   ```
-   *(Replace `YOUR_USERNAME` with the actual repository owner)*
-
-5. **Choose Location:**
-   - Select where to save the repository
-   - Recommended: Create a `GitRepos` or `Projects` folder
-
-6. **Open Repository:**
-   - VS Code will ask "Would you like to open the cloned repository?"
-   - Click **"Open"**
-
-### Method B: Using GitHub Desktop
-
-1. **Open GitHub Desktop**
-
-2. **File → Clone Repository**
-
-3. **Enter URL:**
-   ```
-   https://github.com/YOUR_USERNAME/pythonpro26.git
-   ```
-
-4. **Choose Local Path** and click **"Clone"**
-
-5. **Open in VS Code:**
-   - Click **"Open in Visual Studio Code"**
-
-### Method C: Using Command Line
-
-1. **Open Terminal** (or Command Prompt/PowerShell on Windows)
-
-2. **Navigate to desired location:**
-   ```bash
-   cd ~/Documents  # or wherever you want
-   ```
-
-3. **Clone:**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/pythonpro26.git
-   ```
-
-4. **Open in VS Code:**
-   ```bash
-   cd pythonpro26
-   code .
-   ```
-
----
-
-## 8. Verify Your Setup
+## 7. Verify Your Setup
 
 Let's make sure everything works!
 
@@ -496,7 +433,7 @@ Let's make sure everything works!
    - Should show Python version (e.g., "Python 3.11.5")
    - If it says "Select Python Interpreter," click it and choose one
 
-3. **Hover Over Code:**
+3. **Hover Over Code (optional):**
    - Hover over `print` - should show documentation popup
    - If not, Pylance might still be loading (wait 10-20 seconds)
 
@@ -592,7 +529,6 @@ Let's make sure everything works!
 - Make sure your code is **outside** the docstring quotes
 - Remove `pass` statements
 - Actually implement the function logic
-- See [setup_new_part_prompt.md](setup_new_part_prompt.md) for details
 
 ---
 
@@ -607,7 +543,6 @@ Now that your environment is set up:
 5. **Track scores:** Open `.progress/marksheet.md`
 
 ---
-
 ## 💡 Tips
 
 - **Use VS Code's integrated terminal** - It's already in the right directory!
