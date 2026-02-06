@@ -56,8 +56,16 @@ This repository contains the aligned, auto-graded exercises for the course [Fund
 - ✅ Free 60 hours/month
 
 
-### 2: Local Development (Part 2 onwards)
-**For those who prefer working on their own computer**
+### 2: Setting Up Your Local Development Environment & Working Locally (Optional but Recommended)
+
+> **💡 Note:** While you can complete all tasks using GitHub Codespaces in your browser, setting up a local development environment is **strongly recommended** for several reasons:
+> - **Real-world experience**: Learn how professional developers set up and manage their tools
+> - **Offline access**: Work without internet connectivity
+> - **Better performance**: Native applications often run faster than browser-based environments
+> - **Professional skills**: Understanding local setup is essential for future development work
+> - **Long-term learning**: Build skills you'll use throughout your programming career
+>
+> Local development is not compulsory but provides valuable hands-on experience with industry-standard workflows.
 
 **Requirements:**
 - Python 3.11 or higher
