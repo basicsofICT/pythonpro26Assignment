@@ -24,7 +24,7 @@ This repository contains the aligned, auto-graded exercises for the course [Fund
 
 ## 🚀 Quick Start Options
 
-### Option 1: GitHub Codespaces 
+### 1: GitHub Codespaces 
 **Steps to get started:**
 
 1. **Accept the Assignment in Canvas** 
@@ -56,7 +56,7 @@ This repository contains the aligned, auto-graded exercises for the course [Fund
 - ✅ Free 60 hours/month
 
 
-### Option 2: Local Development (Part 2 onwards)
+### 2: Local Development (Part 2 onwards)
 **For those who prefer working on their own computer**
 
 **Requirements:**
