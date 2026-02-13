@@ -43,16 +43,18 @@ Each task is worth **1 point**. Your score persists across grading sessions.
 | Section | Tasks | Topics |
 |---------|-------|--------|
 | **Getting Started** | 10 | Basic print statements, user input, string concatenation |
-| **1.1 More About Variables** | 3 | Variable usage, expression printing, fixing print errors |
-| **1.2 Arithmetic Operations** | 8 | Math operators, calculations, integer division |
-| **1.3 Conditional Statements** | 10 | if/elif/else, comparisons, boolean logic |
+| **More about Variables** | 3 | Variable usage, expression printing, fixing print errors |
+| **Arithmetic Operations** | 8 | Math operators, calculations, integer division |
+| **Conditional Statements** | 10 | if/elif/else, comparisons, boolean logic |
 
 ### Task Files Location
 All tasks are in: `part1Exercises/tasks/`
 
 **File naming convention:**
 - Basic tasks: `1_emoticon.py`, `2_seven_brothers.py`, ... `10_story.py`
-- Section tasks: `1.1.1_extra_space.py`, `1.2.1_times_five.py`, `1.3.1_orwell.py`, etc.
+- More about variables: `11_extraspace.py`, `12_arithmetics.py`, `13_fix_single_line.py`
+- Arithmetic operations: `14_times_five.py`, `15_name_and_age.py`, ... `21_students_in_groups.py`
+- Conditional statements: `22_orwell.py`, `23_absolute_value.py`, ... `31_solving_a_quadratic_equation.py`
 
 > 💡 **Tip:** Open task files to see detailed instructions, sample inputs/outputs, and requirements for each exercise.
 

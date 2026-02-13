@@ -1,4 +1,7 @@
 """
+Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Run: python 10_story.py | Check: python grade_part1.py
+
 1.2 Information from the user : https://dipaish.github.io/programming-24/part-1/2-information-from-the-user 
 
 Task:Please write a program which prints out the following story. The user gives a name and a year, which should be inserted into the printout.

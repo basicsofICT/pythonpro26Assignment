@@ -1,4 +1,7 @@
 """
+Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Run: python 12_arithmetics.py | Check: python grade_part1.py
+
 Programming exercise: Arithmetics
 
 This program already contains two integer variables, x and y:

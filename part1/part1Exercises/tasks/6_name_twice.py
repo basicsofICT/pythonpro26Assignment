@@ -1,4 +1,7 @@
 """
+Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Run: python 6_name_twice.py | Check: python grade_part1.py
+
 1.2 Information from the user : https://dipaish.github.io/programming-24/part-1/2-information-from-the-user 
 
 Task: Please write a program which asks for the user's name and then prints it twice, on two consecutive lines.

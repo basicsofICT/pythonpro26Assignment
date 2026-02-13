@@ -2,7 +2,7 @@
 
 ## Hi Deepak Chhetri, check your scores below!
 
-Last updated: 2025-10-26 11:07:10
+Last updated: 2026-02-13 14:04:38
 
 | Part | Score | Max | Percent | Progress |
 |------|-------|-----|---------|----------|
@@ -24,30 +24,30 @@ _Note: Part 5 is optional and not counted toward the total._
 - Tasks passed: 0
 - Tasks failed: 31
 - Failed task files:
-  - `1.1.1_extra_space.py`
-  - `1.1.2_arithmetics.py`
-  - `1.1.3_fix_the_code_print_single_line.py`
-  - `1.2.1_times_five.py`
-  - `1.2.2_name_and_age.py`
-  - `1.2.3_seconds_in_a_day.py`
-  - `1.2.4_fix_the_code_product.py`
-  - `1.2.5_sum_and_product.py`
-  - `1.2.6_sum_and_mean.py`
-  - `1.2.7_food_expenditure.py`
-  - `1.2.8_students_in_groups.py`
-  - `1.3.10_solving_a_quadratic_equation.py`
-  - `1.3.1_orwell.py`
-  - `1.3.2_absolute_value.py`
-  - `1.3.3_soup_or_no_soup.py`
-  - `1.3.4_order_of_magnitude.py`
-  - `1.3.5_calculator.py`
-  - `1.3.6_temperatures.py`
-  - `1.3.7_daily_wages.py`
-  - `1.3.8_loyalty_bonus.py`
-  - `1.3.9_what_to_wear_tomorrow.py`
   - `10_story.py`
+  - `11_extraspace.py`
+  - `12_arithmetics.py`
+  - `13_fix_single_line.py`
+  - `14_times_five.py`
+  - `15_name_and_age.py`
+  - `16_seconds_in_a_day.py`
+  - `17_fix_the_code_product.py`
+  - `18_sum_and_product.py`
+  - `19_sum_and_mean.py`
   - `1_emoticon.py`
+  - `20_food_expenditure.py`
+  - `21_students_in_groups.py`
+  - `22_orwell.py`
+  - `23_absolute_value.py`
+  - `24_soup_or_no_soup.py`
+  - `25_order_of_magnitude.py`
+  - `26_calculator.py`
+  - `27_temperatures.py`
+  - `28_daily_wages.py`
+  - `29_loyalty_bonus.py`
   - `2_seven_brothers.py`
+  - `30_what_to_wear_tomorrow.py`
+  - `31_solving_a_quadratic_equation.py`
   - `3_row_your_boat.py`
   - `4_minutes_in_year.py`
   - `5_print_some_code.py`

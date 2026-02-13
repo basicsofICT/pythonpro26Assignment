@@ -1,4 +1,7 @@
 """
+Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Run: python 5_print_some_code.py | Check: python grade_part1.py
+
 Part 1.1 Getting Started: https://dipaish.github.io/programming-24/part-1/1-getting-started
 Task 5: Thus far, you have probably used double quotation marks " to print out strings. In addition to the double quotation marks, Python also accepts single quotation marks '. This comes in handy if you ever want to print out the actual quotation marks themselves:
 

@@ -1,4 +1,7 @@
 """
+Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Run: python 3_row_your_boat.py | Check: python grade_part1.py
+
 Part 1.1 Getting Started: https://dipaish.github.io/programming-24/part-1/1-getting-started
 Task 3: Please write a program which prints out the following lines exactly as they are written here, punctuation and all:
 

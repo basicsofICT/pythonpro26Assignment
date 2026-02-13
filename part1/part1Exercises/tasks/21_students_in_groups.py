@@ -1,0 +1,21 @@
+"""
+Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Run: python 21_students_in_groups.py | Check: python grade_part1.py
+
+Programming exercise: Students in Groups
+
+Please write a program which asks for the number of students on a course and the desired group size. 
+The program should then print out the number of groups formed from the students.
+
+If the division is not even, one of the groups may have fewer members than specified.
+
+Sample output:
+How many students on the course? 8
+Desired group size? 4
+Number of groups formed: 2
+
+Hint: You can use integer division operator //
+"""
+
+# TODO: Write your code below
+

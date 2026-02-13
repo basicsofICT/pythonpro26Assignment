@@ -1,4 +1,7 @@
 """
+Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Run: python 2_seven_brothers.py | Check: python grade_part1.py
+
 Part 1.1 Getting Started: https://dipaish.github.io/programming-24/part-1/1-getting-started
 Task 2: "Seitsemän veljestä" is one of the first novels ever written in Finnish. It is the story of seven orphaned brothers learning to make their way in the world (read more on Wikipedia).
 

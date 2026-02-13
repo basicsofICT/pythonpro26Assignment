@@ -1,4 +1,7 @@
 """
+Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Run: python 7_name_excalaimation_mark.py | Check: python grade_part1.py
+
 1.2 Information from the user : https://dipaish.github.io/programming-24/part-1/2-information-from-the-user 
 
 Task: Please write a program which asks for the user's name and then prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, another between the two names and a third one at the end of the line.

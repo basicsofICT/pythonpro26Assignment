@@ -24,9 +24,9 @@ EXPECTED = {
     "3_row_your_boat.py": "Row, row, row your boat,\nGently down the stream.\nMerrily, merrily, merrily, merrily,\nLife is but a dream.\n",
     "4_minutes_in_year.py": "525600\n",
     "5_print_some_code.py": "print(\"Hello there!\")\n",
-    # Section 1.1 - More about variables
-    "1.1.1_extra_space.py": "Peter Python\nPaula Pythonson\n\nPeter and Paula are quite a pair!\n",
-    "1.1.2_arithmetics.py": "5 + 8 - 4 = 9\n",
+    "11_extraspace.py": "my name is Tim Tester, I am 20 years old\n\nmy skills are\n - python (beginner)\n - java (veteran)\n - programming (semiprofessional)\n\nI am looking for a job with a salary of 2000-3000 euros per month\n",
+    "12_arithmetics.py": "27 + 15 = 42\n27 - 15 = 12\n27 * 15 = 405\n27 / 15 = 1.8\n",
+    "13_fix_single_line.py": "5 + 8 - 4 = 9\n",
 }
 
 # For interactive tasks: key is filename, value is dict with "inputs" (list) and "expected_output" (string)
@@ -51,82 +51,77 @@ INTERACTIVE = {
         "inputs": ["Mary", "1572"],
         "expected_output": "Please type in a name: Please type in a year: Mary is a valiant knight, born in the year 1572. One morning Mary woke up to an awful racket: a dragon was approaching the village. Only Mary could save the village's residents.\n"
     },
-    # Section 1.1 - More about variables
-    "1.1.3_fix_the_code_print_single_line.py": {
-        "inputs": [],
-        "expected_output": "Saul Goodman\n"
-    },
     # Section 1.2 - Arithmetic operations
-    "1.2.1_times_five.py": {
+    "14_times_five.py": {
         "inputs": ["3"],
         "expected_output": "Please type in a number: 3 times 5 is 15\n"
     },
-    "1.2.2_name_and_age.py": {
+    "15_name_and_age.py": {
         "inputs": ["Frances Fictitious", "1990"],
         "expected_output": "What is your name? Which year were you born? Hi Frances Fictitious, you will be 35 years old at the end of the year 2025\n"
     },
-    "1.2.3_seconds_in_a_day.py": {
+    "16_seconds_in_a_day.py": {
         "inputs": ["1"],
         "expected_output": "How many days? Seconds in that many days: 86400\n"
     },
-    "1.2.4_fix_the_code_product.py": {
+    "17_fix_the_code_product.py": {
         "inputs": ["2", "4", "5"],
         "expected_output": "Please type in the first number: Please type in the second number: Please type in the third number: The product is 40\n"
     },
-    "1.2.5_sum_and_product.py": {
+    "18_sum_and_product.py": {
         "inputs": ["3", "7"],
         "expected_output": "Number 1: Number 2: The sum of the numbers: 10\nThe product of the numbers: 21\n"
     },
-    "1.2.6_sum_and_mean.py": {
+    "19_sum_and_mean.py": {
         "inputs": ["2", "1", "6", "7"],
         "expected_output": "Number 1: Number 2: Number 3: Number 4: The sum of the numbers is 16 and the mean is 4.0\n"
     },
-    "1.2.7_food_expenditure.py": {
+    "20_food_expenditure.py": {
         "inputs": ["4", "2.50", "28.5"],
         "expected_output": "How many times a week do you eat at the student cafeteria? The price of a typical student lunch? How much money do you spend on groceries in a week? \nAverage food expenditure:\nDaily: 5.5 euros\nWeekly: 38.5 euros\n"
     },
-    "1.2.8_students_in_groups.py": {
+    "21_students_in_groups.py": {
         "inputs": ["8", "4"],
         "expected_output": "How many students on the course? Desired group size? Number of groups formed: 2\n"
     },
     # Section 1.3 - Conditional statements
-    "1.3.1_orwell.py": {
+    "22_orwell.py": {
         "inputs": ["1984"],
         "expected_output": "Please type in a number: Orwell\n"
     },
-    "1.3.2_absolute_value.py": {
+    "23_absolute_value.py": {
         "inputs": ["-7"],
         "expected_output": "Please type in a number: The absolute value of this number is 7\n"
     },
-    "1.3.3_soup_or_no_soup.py": {
+    "24_soup_or_no_soup.py": {
         "inputs": ["Kramer", "2"],
         "expected_output": "Please tell me your name: How many portions of soup? The total cost is 11.8\nNext please!\n"
     },
-    "1.3.4_order_of_magnitude.py": {
+    "25_order_of_magnitude.py": {
         "inputs": ["59"],
         "expected_output": "Please type in a number: This number is smaller than 1000\nThis number is smaller than 100\nThank you!\n"
     },
-    "1.3.5_calculator.py": {
+    "26_calculator.py": {
         "inputs": ["10", "17", "add"],
         "expected_output": "Number 1: Number 2: Operation: 10 + 17 = 27\n"
     },
-    "1.3.6_temperatures.py": {
+    "27_temperatures.py": {
         "inputs": ["21"],
         "expected_output": "Please type in a temperature (F): 21 degrees Fahrenheit equals -6.111111111111111 degrees Celsius\nBrr! It's cold in here!\n"
     },
-    "1.3.7_daily_wages.py": {
+    "28_daily_wages.py": {
         "inputs": ["8.5", "3", "Monday"],
         "expected_output": "Hourly wage: Hours worked: Day of the week: Daily wages: 25.5 euros\n"
     },
-    "1.3.8_loyalty_bonus.py": {
+    "29_loyalty_bonus.py": {
         "inputs": ["55"],
         "expected_output": "How many points are on your card? Your bonus is 10 %\nYou now have 60.5 points\n"
     },
-    "1.3.9_what_to_wear_tomorrow.py": {
+    "30_what_to_wear_tomorrow.py": {
         "inputs": ["11", "no"],
         "expected_output": "What is the weather forecast for tomorrow?\nTemperature: Will it rain (yes/no): Wear jeans and a T-shirt\nI recommend a jumper as well\n"
     },
-    "1.3.10_solving_a_quadratic_equation.py": {
+    "31_solving_a_quadratic_equation.py": {
         "inputs": ["1", "2", "-8"],
         "expected_output": "Value of a: Value of b: Value of c: The roots are 2.0 and -4.0\n"
     },
