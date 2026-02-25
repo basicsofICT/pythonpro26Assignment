@@ -1,5 +1,5 @@
 """
-Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
 Run: python 17_fix_the_code_product.py | Check: python grade_part1.py
 
 Programming exercise: Fix the Code - Product
@@ -15,10 +15,22 @@ The product is 40
 """
 
 # Fix the code below
-number1 = int(input("Please type in the first number: "))
-number2 = int(input("Please type in the second number: "))
-number3 = int(input("Please type in the third number: "))
 
-product = number1 + number2 + number3
+number = int(input("Please type in the first number: "))
+number = int(input("Please type in the second number: "))
+number = int(input("Please type in the third number: "))
+
+product = number * number * number
 
 print("The product is", product)
+
+
+
+
+# Save your file and run it using: python 17_fix_the_code_product.py
+# Check: python grade_part1.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 17"             (commit with message)
+# 3. git push                                      (push to GitHub)

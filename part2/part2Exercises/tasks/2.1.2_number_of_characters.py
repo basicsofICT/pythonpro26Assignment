@@ -1,18 +1,16 @@
 """
-2.1.2 Number of Characters
-
-Task: Ask for a word and print how many letters it contains.
-
-Interaction example:
-Please type in a word: python
-There are 6 letters in the word python
-Thank you!
-
-Instructions:
-- Read a single word with the exact prompt.
-- Print the line with the count and the word as shown.
-- Finish with "Thank you!" on its own line.
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part2/part2Exercises/tasks (if needed)
+Run: python 2.1.2_number_of_characters.py | Check: python grade_part2.py
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 2.1.2_number_of_characters.py
+# Check: python grade_part2.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 2.1.2"         (commit with message)
+# 3. git push                                      (push to GitHub)

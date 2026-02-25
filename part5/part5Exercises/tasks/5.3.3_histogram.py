@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part5/part5Exercises/tasks (if needed)
+Run: python 5.3.3_histogram.py | Check: python grade_part5.py
+
 5.3.3 Histogram
 
 Please write a function named histogram(string: str), which takes a string as its 
@@ -29,5 +32,14 @@ Expected output:
     y *
 """
 
-# TODO: Implement your solution below this line
+# TODO: Write your solution below this line
 
+
+
+# Save your file and run it using: python 5.3.3_histogram.py
+# Check: python grade_part5.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 5.3.3"         (commit with message)
+# 3. git push                                      (push to GitHub)

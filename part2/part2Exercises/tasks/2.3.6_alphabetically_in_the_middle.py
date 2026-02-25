@@ -1,18 +1,16 @@
 """
-2.3.6 Alphabetically in the Middle
-
-Task: Read three letters and print which is alphabetically in the middle.
-
-Interaction example:
-1st letter: x
-2nd letter: c
-3rd letter: p
-The letter in the middle is p
-
-Instructions:
-- Prompts must match exactly.
-- Assume valid single-letter inputs.
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part2/part2Exercises/tasks (if needed)
+Run: python 2.3.6_alphabetically_in_the_middle.py | Check: python grade_part2.py
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 2.3.6_alphabetically_in_the_middle.py
+# Check: python grade_part2.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 2.3.6"         (commit with message)
+# 3. git push                                      (push to GitHub)

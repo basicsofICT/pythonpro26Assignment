@@ -1,22 +1,16 @@
 """
-2.2.3 The Elder
-
-Task: Ask two persons' names and ages, and print who is older.
-
-Interaction example:
-Person 1:
-Name: Alan
-Age: 26
-Person 2:
-Name: Ada
-Age: 27
-The elder is Ada
-
-Instructions:
-- Output the exact prompts and formatting.
-- Assume ages are integers.
-- If equal, you may choose either.
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part2/part2Exercises/tasks (if needed)
+Run: python 2.2.3_the_elder.py | Check: python grade_part2.py
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 2.2.3_the_elder.py
+# Check: python grade_part2.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 2.2.3"         (commit with message)
+# 3. git push                                      (push to GitHub)

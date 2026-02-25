@@ -1,5 +1,5 @@
 """
-Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
 Run: python 23_absolute_value.py | Check: python grade_part1.py
 
 Programming exercise: Absolute Value
@@ -16,3 +16,13 @@ Hint: You can use the abs() function, or implement your own logic with an if sta
 
 # TODO: Write your code below
 
+
+
+
+# Save your file and run it using: python 23_absolute_value.py
+# Check: python grade_part1.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 23"             (commit with message)
+# 3. git push                                      (push to GitHub)

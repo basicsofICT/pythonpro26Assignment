@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part6/part6Exercises/tasks (if needed)
+Run: python 6.1.3_matrix.py | Check: python grade_part6.py
+
 6.1.3 Matrix
 
 Task: Implement three functions reading matrix.txt:
@@ -29,3 +32,11 @@ def row_sums() -> list[int]:
 # print(matrix_sum())
 # print(matrix_max())
 # print(row_sums())
+
+# Save your file and run it using: python 6.1.3_matrix.py
+# Check: python grade_part6.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 6.1.3"         (commit with message)
+# 3. git push                                      (push to GitHub)

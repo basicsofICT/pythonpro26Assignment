@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part5/part5Exercises/tasks (if needed)
+Run: python 5.4.5_square_of_letters.py | Check: python grade_part5.py
+
 5.4.5 Square of letters
 
 In this exercise, you'll implement a function to create a "square of letters" which 
@@ -29,5 +32,14 @@ Notice! In this exercise, you should not use any string multiplication. All stri
 should be built character by character using loops.
 """
 
-# TODO: Implement your solution below this line
+# TODO: Write your solution below this line
 
+
+
+# Save your file and run it using: python 5.4.5_square_of_letters.py
+# Check: python grade_part5.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 5.4.5"         (commit with message)
+# 3. git push                                      (push to GitHub)

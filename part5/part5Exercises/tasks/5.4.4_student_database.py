@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part5/part5Exercises/tasks (if needed)
+Run: python 5.4.4_student_database.py | Check: python grade_part5.py
+
 5.4.4 Student database
 
 In this exercise you will write a simple student database. Before attempting this 
@@ -50,5 +53,14 @@ Expected output:
     most courses completed 3 Peter
 """
 
-# TODO: Implement your solution below this line
+# TODO: Write your solution below this line
 
+
+
+# Save your file and run it using: python 5.4.4_student_database.py
+# Check: python grade_part5.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 5.4.4"         (commit with message)
+# 3. git push                                      (push to GitHub)

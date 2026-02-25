@@ -1,5 +1,5 @@
 """
-Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
 Run: python 13_fix_single_line.py | Check: python grade_part1.py
 
 Programming exercise: Fix the code - Print a single line
@@ -26,3 +26,10 @@ print(" - ")
 print(4)
 print(" = ")
 print(5 + 8 - 4)
+
+# Save your file and run it using: python 13_fix_single_line.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 13"            (commit with message)
+# 3. git push                                      (push to GitHub)

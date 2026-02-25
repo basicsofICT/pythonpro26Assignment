@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part3/part3Exercises/tasks (if needed)
+Run: python 3.2.13_find_the_first_substring.py | Check: python grade_part3.py
+
 3.2.13 Find the First Substring
 
 Task: Find and print the first 3-character substring starting with a specific character.
@@ -31,4 +34,13 @@ Instructions:
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 3.2.13_find_the_first_substring.py
+# Check: python grade_part3.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 3.2.13"         (commit with message)
+# 3. git push                                      (push to GitHub)

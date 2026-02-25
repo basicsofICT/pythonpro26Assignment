@@ -1,21 +1,16 @@
 """
-2.4.8 Working with Numbers
-
-Task: Ask for a starting and ending number; print every even number from start to end inclusively.
-
-Interaction example:
-First: 2
-Last: 10
-2
-4
-6
-8
-10
-
-Instructions:
-- Use exact prompts: "First: " and "Last: ".
-- Ensure inclusive range and only even numbers.
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part2/part2Exercises/tasks (if needed)
+Run: python 2.4.8_working_with_numbers.py | Check: python grade_part2.py
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 2.4.8_working_with_numbers.py
+# Check: python grade_part2.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 2.4.8"         (commit with message)
+# 3. git push                                      (push to GitHub)

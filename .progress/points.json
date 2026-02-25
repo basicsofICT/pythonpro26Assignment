@@ -8,8 +8,12 @@
         "4_minutes_in_year.py": false,
         "5_print_some_code.py": false,
         "11_extraspace.py": false,
-        "12_arithmetics.py": false,
         "13_fix_single_line.py": false,
+        "12_arithmetics.py": false,
+        "27_temperatures.py": false,
+        "29_loyalty_bonus.py": false,
+        "30_what_to_wear_tomorrow.py": false,
+        "31_solving_a_quadratic_equation.py": false,
         "6_name_twice.py": false,
         "7_name_excalaimation_mark.py": false,
         "8_name_Address.py": false,
@@ -28,11 +32,7 @@
         "24_soup_or_no_soup.py": false,
         "25_order_of_magnitude.py": false,
         "26_calculator.py": false,
-        "27_temperatures.py": false,
-        "28_daily_wages.py": false,
-        "29_loyalty_bonus.py": false,
-        "30_what_to_wear_tomorrow.py": false,
-        "31_solving_a_quadratic_equation.py": false
+        "28_daily_wages.py": false
       },
       "score": 0,
       "total": 31
@@ -206,5 +206,5 @@
     }
   },
   "total_points": 0,
-  "updated_at": "2026-02-13 14:04:38"
+  "updated_at": "2026-02-25 14:16:36"
 }

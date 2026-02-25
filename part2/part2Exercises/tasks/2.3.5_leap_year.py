@@ -1,16 +1,16 @@
 """
-2.3.5 Leap Year
-
-Task: Determine if a year is a leap year.
-
-Interaction example:
-Please type in a year: 2020
-That year is a leap year.
-
-Instructions:
-- Use standard leap year rules.
-- Match prompts and messages exactly.
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part2/part2Exercises/tasks (if needed)
+Run: python 2.3.5_leap_year.py | Check: python grade_part2.py
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 2.3.5_leap_year.py
+# Check: python grade_part2.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 2.3.5"         (commit with message)
+# 3. git push                                      (push to GitHub)

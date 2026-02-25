@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part5/part5Exercises/tasks (if needed)
+Run: python 5.2.1_items_multiplied_by_two.py | Check: python grade_part5.py
+
 5.2.1 Items multiplied by two
 
 Please write a function named double_items(numbers: list), which takes a list of 
@@ -18,5 +21,14 @@ Expected output:
     doubled: [4, 8, 10, 6, 22, -8]
 """
 
-# TODO: Implement your solution below this line
+# TODO: Write your solution below this line
 
+
+
+# Save your file and run it using: python 5.2.1_items_multiplied_by_two.py
+# Check: python grade_part5.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 5.2.1"         (commit with message)
+# 3. git push                                      (push to GitHub)

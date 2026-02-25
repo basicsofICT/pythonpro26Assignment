@@ -1,16 +1,16 @@
 """
-2.3.7 Gift Tax Calculator
-
-Task: Calculate gift tax based on gift value.
-
-Interaction example:
-Value of gift: 27000
-Amount of tax: 1900.0 euros
-
-Instructions:
-- Use your course's gift tax brackets; the grader expects the above output for 27000.
-- Match prompts and output exactly.
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part2/part2Exercises/tasks (if needed)
+Run: python 2.3.7_gift_tax_calculator.py | Check: python grade_part2.py
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 2.3.7_gift_tax_calculator.py
+# Check: python grade_part2.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 2.3.7"         (commit with message)
+# 3. git push                                      (push to GitHub)

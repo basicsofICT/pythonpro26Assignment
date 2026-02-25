@@ -1,16 +1,16 @@
 """
-2.3.4 FizzBuzz
-
-Task: Print Fizz, Buzz, or FizzBuzz depending on divisibility.
-
-Interaction example:
-Number: 45
-FizzBuzz
-
-Instructions:
-- Prompt exactly with "Number: ".
-- Print FizzBuzz if divisible by both 3 and 5; otherwise Fizz or Buzz or the number.
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part2/part2Exercises/tasks (if needed)
+Run: python 2.3.4_fizzbuzz.py | Check: python grade_part2.py
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 2.3.4_fizzbuzz.py
+# Check: python grade_part2.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 2.3.4"         (commit with message)
+# 3. git push                                      (push to GitHub)

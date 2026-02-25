@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part3/part3Exercises/tasks (if needed)
+Run: python 3.2.4_second_and_second_to_last.py | Check: python grade_part3.py
+
 3.2.4 Second and Second to Last Characters
 
 Task: Compare the second and second-to-last characters of a string.
@@ -20,4 +23,13 @@ Instructions:
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 3.2.4_second_and_second_to_last.py
+# Check: python grade_part3.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 3.2.4"         (commit with message)
+# 3. git push                                      (push to GitHub)

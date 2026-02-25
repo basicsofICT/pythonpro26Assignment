@@ -1,4 +1,5 @@
-"""
+"""Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part3/part3Exercises/tasks (if needed)
+Run: python 3.1.2_fix_the_code_countdown.py | Check: python grade_part3.py
 3.1.2 Fix the Code: Countdown
 
 Task: Fix the syntactic issues in the countdown program.
@@ -28,4 +29,13 @@ Instructions:
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 3.1.2_fix_the_code_countdown.py
+# Check: python grade_part3.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 3.1.2"         (commit with message)
+# 3. git push                                      (push to GitHub)

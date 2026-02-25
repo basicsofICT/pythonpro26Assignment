@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part6/part6Exercises/tasks (if needed)
+Run: python 6.1.8_recipe_search.py | Check: python grade_part6.py
+
 6.1.8 Recipe search
 
 Task: Implement functions reading recipes from a file with blocks:
@@ -24,3 +27,11 @@ def search_by_time(filename: str, prep_time: int) -> list[str]:
 def search_by_ingredient(filename: str, ingredient: str) -> list[str]:
     # Return recipes containing ingredient, formatted with time
     pass
+
+# Save your file and run it using: python 6.1.8_recipe_search.py
+# Check: python grade_part6.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 6.1.8"         (commit with message)
+# 3. git push                                      (push to GitHub)

@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part5/part5Exercises/tasks (if needed)
+Run: python 5.2.3_sudoku_print_grid.py | Check: python grade_part5.py
+
 5.2.3 Sudoku: print grid
 
 Please write a function named print_sudoku(sudoku: list), which takes a two-dimensional 
@@ -64,5 +67,15 @@ Expected output:
     3 _ _  _ _ _  _ _ 2
 """
 
-# TODO: Implement your solution below this line
+# TODO: Write your solution below this line
+
+
+
+# Save your file and run it using: python 5.2.3_sudoku_print_grid.py
+# Check: python grade_part5.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 5.2.3"         (commit with message)
+# 3. git push                                      (push to GitHub)
 

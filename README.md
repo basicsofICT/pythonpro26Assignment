@@ -7,7 +7,6 @@
 
 This repository contains the aligned, auto-graded exercises for the course [Basics of Programming - Python](https://dipaish.github.io/programming-24/) which is adapted from the University of Helsinki’s [Introduction to Programming (Programming MOOC)](https://programming-24.mooc.fi/) course.
 
-> 🚀 **No installation required!** Use GitHub Codespaces to start coding in your browser instantly.
 
 ## 📊 Tasks Overview
 
@@ -56,7 +55,7 @@ This repository contains the aligned, auto-graded exercises for the course [Basi
 - ✅ Free 60 hours/month
 
 
-### 2: Setting Up Your Local Development Environment & Working Locally (Optional but Recommended)
+### 2: Setting Up Your Local Development Environment & Working Locally 
 
 > **💡 Note:** While you can complete all tasks using GitHub Codespaces in your browser, setting up a local development environment is **strongly recommended** for several reasons:
 > - **Real-world experience**: Learn how professional developers set up and manage their tools
@@ -65,7 +64,7 @@ This repository contains the aligned, auto-graded exercises for the course [Basi
 > - **Professional skills**: Understanding local setup is essential for future development work
 > - **Long-term learning**: Build skills you'll use throughout your programming career
 >
-> Local development is not compulsory but provides valuable hands-on experience with industry-standard workflows.
+> Local development is not compulsory but provides valuable hands-on experience with industry-standard workflows. ***Starting from Part 2, it is strongly recommended to use the local development environment.***
 
 **Requirements:**
 - Python 3.11 or higher
@@ -73,17 +72,7 @@ This repository contains the aligned, auto-graded exercises for the course [Basi
 - Visual Studio Code (recommended editor)
 - VS Code Python extensions
 
-**📖 Complete Setup Guide:** **[→ LOCAL_SETUP_GUIDE.md](LOCAL_SETUP_GUIDE.md)**
-
-This comprehensive guide covers:
-- ✅ Installing Python on Windows, macOS, and Linux
-- ✅ Installing Git and GitHub Desktop
-- ✅ Installing Visual Studio Code
-- ✅ Setting up VS Code extensions for Python
-- ✅ Signing in with your GitHub account
-- ✅ Cloning this repository
-- ✅ Verifying your setup works
-- ✅ Troubleshooting common issues
+**📖 Local Setup Guide:** **[→ LOCAL_SETUP_GUIDE.md](LOCAL_SETUP_GUIDE.md)**
 
 ---
 
@@ -96,7 +85,6 @@ This comprehensive guide covers:
 
 Each task is worth **1 point**. Your live progress is tracked automatically in `.progress/marksheet.md`.
 
-## 📚 For Students
 
 ### ✅ What You Should Edit:
 - **All task files**: `1_emoticon.py`, `2_seven_brothers.py`, `1.1.1_extra_space.py`, etc.
@@ -108,9 +96,9 @@ Each task is worth **1 point**. Your live progress is tracked automatically in `
 - **Task specification files**: `p*Alltasks.md`, `part*alltasks.md`
 - **Progress tracking**: `.progress/` folder contents
 
-> **⚠️ Important:** Solutions are auto-graded. Modifying them compromises learning and accurate self-assessment.
+> **⚠️ Important:** Solutions are auto graded. Modifying them compromises learning and accurate self assessment. 
 
-> **🚨 Warning:** Modifying grader files, README files, or task specification files will trigger GitHub notifications to your teachers. Any unauthorized changes to these files may require you to reaccept the assignment and redo your tasks. Only edit the task solution files (e.g., `1_emoticon.py`, `2_seven_brothers.py`) unless explicitly instructed otherwise by your instructor.
+> **🚨 Warning:** Modifying grader files, README files, or task specification files will trigger GitHub notifications to your teachers. Any unauthorized changes to these files may require you to reaccept the assignment and redo your tasks. Only edit the task solution files (e.g., `1_emoticon.py`, `2_seven_brothers.py`).
 
 ---
 

@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part5/part5Exercises/tasks (if needed)
+Run: python 5.3.1_times_ten.py | Check: python grade_part5.py
+
 5.3.1 Times ten
 
 Please write a function named times_ten(start_index: int, end_index: int), which 
@@ -14,5 +17,14 @@ Expected output:
     {3: 30, 4: 40, 5: 50, 6: 60}
 """
 
-# TODO: Implement your solution below this line
+# TODO: Write your solution below this line
 
+
+
+# Save your file and run it using: python 5.3.1_times_ten.py
+# Check: python grade_part5.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 5.3.1"         (commit with message)
+# 3. git push                                      (push to GitHub)

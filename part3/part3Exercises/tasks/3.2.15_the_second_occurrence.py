@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part3/part3Exercises/tasks (if needed)
+Run: python 3.2.15_the_second_occurrence.py | Check: python grade_part3.py
+
 3.2.15 The Second Occurrence
 
 Task: Find the second occurrence of a substring (non-overlapping).
@@ -27,4 +30,13 @@ Instructions:
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 3.2.15_the_second_occurrence.py
+# Check: python grade_part3.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 3.2.15"         (commit with message)
+# 3. git push                                      (push to GitHub)

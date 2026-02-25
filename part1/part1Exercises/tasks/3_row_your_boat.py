@@ -1,5 +1,5 @@
 """
-Quick Start: Terminal (Ctrl+`) | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part1/part1Exercises/tasks (if needed)
 Run: python 3_row_your_boat.py | Check: python grade_part1.py
 
 Part 1.1 Getting Started: https://dipaish.github.io/programming-24/part-1/1-getting-started
@@ -14,5 +14,16 @@ Life is but a dream.
 
 """
 # TODO: Write your solution below this line
-# Save your file and run it using: python 3_row_your_boat.py
 
+
+
+
+
+
+# Save your file and run it using: python 3_row_your_boat.py
+# Check: python grade_part1.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 3"             (commit with message)
+# 3. git push                                      (push to GitHub)

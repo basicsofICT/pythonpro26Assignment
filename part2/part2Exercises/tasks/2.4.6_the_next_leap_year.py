@@ -1,16 +1,16 @@
 """
-2.4.6 The Next Leap Year
-
-Task: Ask for a year and print the next leap year after it.
-
-Interaction example:
-Year: 2019
-The next leap year after 2019 is 2020
-
-Instructions:
-- Exact prompt and output format required.
-- Use standard leap year logic.
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part2/part2Exercises/tasks (if needed)
+Run: python 2.4.6_the_next_leap_year.py | Check: python grade_part2.py
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 2.4.6_the_next_leap_year.py
+# Check: python grade_part2.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 2.4.6"         (commit with message)
+# 3. git push                                      (push to GitHub)

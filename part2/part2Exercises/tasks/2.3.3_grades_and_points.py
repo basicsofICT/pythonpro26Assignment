@@ -1,16 +1,16 @@
 """
-2.3.3 Grades and Points
-
-Task: Convert points [0-100] to a grade and print it.
-
-Interaction example:
-How many points [0-100]: 76
-Grade: 3
-
-Instructions:
-- Implement standard grading (based on your course rules) — grader expects shown output for given input.
-- Use exact prompt and output format.
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part2/part2Exercises/tasks (if needed)
+Run: python 2.3.3_grades_and_points.py | Check: python grade_part2.py
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 2.3.3_grades_and_points.py
+# Check: python grade_part2.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 2.3.3"         (commit with message)
+# 3. git push                                      (push to GitHub)

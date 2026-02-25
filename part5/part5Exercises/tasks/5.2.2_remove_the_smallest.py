@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part5/part5Exercises/tasks (if needed)
+Run: python 5.2.2_remove_the_smallest.py | Check: python grade_part5.py
+
 5.2.2 Remove the smallest
 
 Please write a function named remove_smallest(numbers: list), which takes a list of 
@@ -19,5 +22,14 @@ Expected output:
     [2, 4, 6, 3, 5]
 """
 
-# TODO: Implement your solution below this line
+# TODO: Write your solution below this line
 
+
+
+# Save your file and run it using: python 5.2.2_remove_the_smallest.py
+# Check: python grade_part5.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 5.2.2"         (commit with message)
+# 3. git push                                      (push to GitHub)

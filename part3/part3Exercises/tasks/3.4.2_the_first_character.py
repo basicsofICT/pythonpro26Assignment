@@ -1,4 +1,7 @@
 """
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part3/part3Exercises/tasks (if needed)
+Run: python 3.4.2_the_first_character.py | Check: python grade_part3.py
+
 3.4.2 The First Character
 
 Task: Define a function that returns the first character of a string.
@@ -18,4 +21,13 @@ Instructions:
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 3.4.2_the_first_character.py
+# Check: python grade_part3.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 3.4.2"         (commit with message)
+# 3. git push                                      (push to GitHub)

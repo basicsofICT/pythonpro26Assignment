@@ -1,18 +1,16 @@
 """
-2.4.1 Shall We Continue?
-
-Task: Keep asking until the user says N; then print "Okay then!".
-
-Interaction example:
-Shall we continue? Y
-Shall we continue? Y
-Shall we continue? N
-Okay then!
-
-Instructions:
-- Exactly use the prompt "Shall we continue? ".
-- Accept uppercase letters as in the example.
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part2/part2Exercises/tasks (if needed)
+Run: python 2.4.1_shall_we_continue.py | Check: python grade_part2.py
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 2.4.1_shall_we_continue.py
+# Check: python grade_part2.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 2.4.1"         (commit with message)
+# 3. git push                                      (push to GitHub)

@@ -1,16 +1,16 @@
 """
-2.2.1 Age of Maturity
-
-Task: Ask for age and print whether the user is of age (>= 18).
-
-Interaction example:
-How old are you? 32
-You are of age!
-
-Instructions:
-- Use the exact prompt.
-- If age >= 18, print "You are of age!" else print nothing.
+Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part2/part2Exercises/tasks (if needed)
+Run: python 2.2.1_age_of_maturity.py | Check: python grade_part2.py
 """
 
 # TODO: Write your solution below this line
+
+
+
 # Save your file and run it using: python 2.2.1_age_of_maturity.py
+# Check: python grade_part2.py
+
+# Commit and push changes to GitHub:
+# 1. git add .                                    (stage all changes)
+# 2. git commit -m "Completed task 2.2.1"         (commit with message)
+# 3. git push                                      (push to GitHub)
