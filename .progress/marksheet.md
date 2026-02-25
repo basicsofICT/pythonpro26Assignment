@@ -2,7 +2,7 @@
 
 ## Hi Deepak Chhetri, check your scores below!
 
-Last updated: 2026-02-25 14:16:36
+Last updated: 2026-02-25 22:38:37
 
 | Part | Score | Max | Percent | Progress |
 |------|-------|-----|---------|----------|
@@ -60,28 +60,28 @@ _Note: Part 5 is optional and not counted toward the total._
 - Tasks passed: 0
 - Tasks failed: 22
 - Failed task files:
-  - `2.1.1_fix_syntax.py`
-  - `2.1.2_number_of_characters.py`
-  - `2.1.3_typecasting.py`
-  - `2.2.1_age_of_maturity.py`
-  - `2.2.2_greater_than_or_equal_to.py`
-  - `2.2.3_the_elder.py`
-  - `2.2.4_alphabetically_last.py`
-  - `2.3.1_age_check.py`
-  - `2.3.2_nephews.py`
-  - `2.3.3_grades_and_points.py`
-  - `2.3.4_fizzbuzz.py`
-  - `2.3.5_leap_year.py`
-  - `2.3.6_alphabetically_in_the_middle.py`
-  - `2.3.7_gift_tax_calculator.py`
-  - `2.4.1_shall_we_continue.py`
-  - `2.4.2_input_validation.py`
-  - `2.4.3_fix_the_code_countdown.py`
-  - `2.4.4_repeat_password.py`
-  - `2.4.5_pin_and_number_of_attempts.py`
-  - `2.4.6_the_next_leap_year.py`
-  - `2.4.7_story.py`
-  - `2.4.8_working_with_numbers.py`
+  - `10_grades_and_points.py`
+  - `11_fizzbuzz.py`
+  - `12_leap_year.py`
+  - `13_alphabetically_in_the_middle.py`
+  - `14_gift_tax_calculator.py`
+  - `15_shall_we_continue.py`
+  - `16_input_validation.py`
+  - `17_fix_the_code_countdown.py`
+  - `18_repeat_password.py`
+  - `19_pin_and_number_of_attempts.py`
+  - `1_fix_syntax.py`
+  - `20_the_next_leap_year.py`
+  - `21_story.py`
+  - `22_working_with_numbers.py`
+  - `2_number_of_characters.py`
+  - `3_typecasting.py`
+  - `4_age_of_maturity.py`
+  - `5_greater_than_or_equal_to.py`
+  - `6_the_elder.py`
+  - `7_alphabetically_last.py`
+  - `8_age_check.py`
+  - `9_nephews.py`
 
 ### Part 3
 - Tasks passed: 0

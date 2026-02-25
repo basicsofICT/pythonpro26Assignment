@@ -39,28 +39,28 @@
     },
     "2": {
       "tasks": {
-        "2.1.1_fix_syntax.py": false,
-        "2.1.2_number_of_characters.py": false,
-        "2.1.3_typecasting.py": false,
-        "2.2.1_age_of_maturity.py": false,
-        "2.2.2_greater_than_or_equal_to.py": false,
-        "2.2.3_the_elder.py": false,
-        "2.2.4_alphabetically_last.py": false,
-        "2.3.1_age_check.py": false,
-        "2.3.2_nephews.py": false,
-        "2.3.3_grades_and_points.py": false,
-        "2.3.4_fizzbuzz.py": false,
-        "2.3.5_leap_year.py": false,
-        "2.3.6_alphabetically_in_the_middle.py": false,
-        "2.3.7_gift_tax_calculator.py": false,
-        "2.4.1_shall_we_continue.py": false,
-        "2.4.2_input_validation.py": false,
-        "2.4.3_fix_the_code_countdown.py": false,
-        "2.4.4_repeat_password.py": false,
-        "2.4.5_pin_and_number_of_attempts.py": false,
-        "2.4.6_the_next_leap_year.py": false,
-        "2.4.7_story.py": false,
-        "2.4.8_working_with_numbers.py": false
+        "2_number_of_characters.py": false,
+        "3_typecasting.py": false,
+        "4_age_of_maturity.py": false,
+        "5_greater_than_or_equal_to.py": false,
+        "6_the_elder.py": false,
+        "7_alphabetically_last.py": false,
+        "8_age_check.py": false,
+        "9_nephews.py": false,
+        "10_grades_and_points.py": false,
+        "11_fizzbuzz.py": false,
+        "12_leap_year.py": false,
+        "13_alphabetically_in_the_middle.py": false,
+        "14_gift_tax_calculator.py": false,
+        "19_pin_and_number_of_attempts.py": false,
+        "20_the_next_leap_year.py": false,
+        "21_story.py": false,
+        "1_fix_syntax.py": false,
+        "15_shall_we_continue.py": false,
+        "16_input_validation.py": false,
+        "17_fix_the_code_countdown.py": false,
+        "18_repeat_password.py": false,
+        "22_working_with_numbers.py": false
       },
       "score": 0,
       "total": 22
@@ -206,5 +206,5 @@
     }
   },
   "total_points": 0,
-  "updated_at": "2026-02-25 14:16:36"
+  "updated_at": "2026-02-25 22:38:37"
 }
