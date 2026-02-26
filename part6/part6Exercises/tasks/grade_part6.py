@@ -19,63 +19,63 @@ MARKSHEET_DIR = WORKSPACE_ROOT / ".progress"
 
 EXPECTED = {
     # Section 6.1 - Reading files (function outputs with test data files)
-    "6.1.1_largest_number.py": "108\n",
-    "6.1.2_fruit_market.py": "{'banana': 6.5, 'apple': 4.95, 'orange': 8.0}\n",
-    "6.1.3_matrix.py": "45\n9\n",
-    "6.1.9_city_bikes.py": "{'Ruoholahti': [('09:50', 12)], 'Kamppi': [('11:15', 5)], 'Unioninkatu': [('11:28', 14)]}\n",
+    "1_largest_number.py": "108\n",
+    "2_fruit_market.py": "{'banana': 6.5, 'apple': 4.95, 'orange': 8.0}\n",
+    "3_matrix.py": "45\n9\n",
+    "9_city_bikes.py": "{'Ruoholahti': [('09:50', 12)], 'Kamppi': [('11:15', 5)], 'Unioninkatu': [('11:28', 14)]}\n",
     # Section 6.2 - Writing files (check file creation/content)
-    "6.2.1_inscription.py": "Hi John, we hope you enjoy learning Python with us! Best, Mooc.fi Team\n",
-    "6.2.3_filtering_contents.py": "1 + 2 = 3\n3 + 4 = 7\n",
-    "6.2.4_store_personal_data.py": "Paul Python;42;178.5\n",
+    "10_inscription.py": "Hi John, we hope you enjoy learning Python with us! Best, Mooc.fi Team\n",
+    "12_filtering_contents.py": "1 + 2 = 3\n3 + 4 = 7\n",
+    "13_store_personal_data.py": "Paul Python;42;178.5\n",
     # Section 6.3 - Handling errors
-    "6.3.2_parameter_validation.py": "('John', 25)\nError: Invalid name\nError: Invalid age\n",
+    "18_parameter_validation.py": "('John', 25)\nError: Invalid name\nError: Invalid age\n",
 }
 
 INTERACTIVE = {
     # Section 6.1 - Reading files (interactive)
-    "6.1.4_course_grading_part1.py": {
+    "4_course_grading_part1.py": {
         "inputs": [],
         "expected_output": "Peter Python 21\nJean Java 27\n"
     },
-    "6.1.5_course_grading_part2.py": {
+    "5_course_grading_part2.py": {
         "inputs": [],
         "expected_output": "Peter Python 21 34 55\nJean Java 27 50 77\n"
     },
-    "6.1.6_course_grading_part3.py": {
+    "6_course_grading_part3.py": {
         "inputs": [],
         "expected_output": "Peter Python 21 34 55 5\nJean Java 27 50 77 5\n"
     },
-    "6.1.7_spell_checker.py": {
+    "7_spell_checker.py": {
         "inputs": ["I love Python and Java but COBOL is old"],
         "expected_output": "Enter text: I love Python and Java but *COBOL* is old\n"
     },
-    "6.1.8_recipe_search.py": {
+    "8_recipe_search.py": {
         "inputs": [],
         "expected_output": "['Pancakes']\n['Pancakes', 'Muffins']\n['Pancakes', 'Muffins']\n"
     },
     # Section 6.2 - Writing files (interactive)
-    "6.2.2_diary.py": {
+    "11_diary.py": {
         "inputs": ["1", "Today was a good day", "1", "I learned about file handling", "2"],
         "expected_output": "1 - add an entry, 2 - quit\nFunction: Diary entry: Diary saved\n1 - add an entry, 2 - quit\nFunction: Diary entry: Diary saved\n1 - add an entry, 2 - quit\nFunction: Bye now!\n"
     },
-    "6.2.5_course_grading_part4.py": {
+    "14_course_grading_part4.py": {
         "inputs": [],
         "expected_output": "Results saved!\n"
     },
-    "6.2.6_word_search.py": {
+    "15_word_search.py": {
         "inputs": ["ca*"],
         "expected_output": "Search term: ['cat', 'car', 'carbon']\n"
     },
-    "6.2.7_dictionary_file.py": {
+    "16_dictionary_file.py": {
         "inputs": ["1", "apina", "monkey", "2", "apina", "2", "koira", "3"],
         "expected_output": "1 - add a word, 2 - search, 3 - quit\nFunction: Finnish: English: Entry added\n1 - add a word, 2 - search, 3 - quit\nFunction: Finnish word: English: monkey\n1 - add a word, 2 - search, 3 - quit\nFunction: Finnish word: Not found\n1 - add a word, 2 - search, 3 - quit\nFunction: Bye!\n"
     },
     # Section 6.3 - Handling errors (interactive)
-    "6.3.1_reading_input.py": {
+    "17_reading_input.py": {
         "inputs": ["2", "fifteen", "8"],
         "expected_output": "Please type in a number: You must type in an integer between 5 and 10\nPlease type in a number: You must type in an integer between 5 and 10\nPlease type in a number: You typed in: 8\n"
     },
-    "6.3.3_incorrect_lottery.py": {
+    "19_incorrect_lottery.py": {
         "inputs": [],
         "expected_output": ""  # Output depends on file content
     },

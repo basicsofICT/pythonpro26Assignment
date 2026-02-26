@@ -19,66 +19,66 @@ MARKSHEET_DIR = WORKSPACE_ROOT / ".progress"
 
 EXPECTED = {
     # Section 4.1 - More functions (non-interactive outputs)
-    "4.1.1_line.py": "%%%%%%%\nLLLLLLLLLL\n***\n",
-    "4.1.2_a_box_of_hashes.py": "##########\n##########\n##########\n##########\n##########\n",
-    "4.1.3_a_square_of_hashes.py": "#####\n#####\n#####\n#####\n#####\n",
-    "4.1.4_a_square.py": "*****\n*****\n*****\n*****\n*****\n",
-    "4.1.5_a_triangle.py": "#\n##\n###\n####\n#####\n",
-    "4.1.6_a_shape.py": "X\nXX\nXXX\nXXXX\nXXXXX\n*****\n*****\n*****\n",
-    "4.1.7_a_spruce.py": "  *\n ***\n*****\n  *\n",
-    "4.1.8_the_greatest_number.py": "4\n99\n0\n",
-    "4.1.9_same_characters.py": "False\nTrue\nFalse\n",
-    "4.1.10_first_second_last_words.py": "it\nwas\nnight\nwas\nwas\n",
+    "1_line.py": "%%%%%%%\nLLLLLLLLLL\n***\n",
+    "2_a_box_of_hashes.py": "##########\n##########\n##########\n##########\n##########\n",
+    "3_a_square_of_hashes.py": "#####\n#####\n#####\n#####\n#####\n",
+    "4_a_square.py": "*****\n*****\n*****\n*****\n*****\n",
+    "5_a_triangle.py": "#\n##\n###\n####\n#####\n",
+    "6_a_shape.py": "X\nXX\nXXX\nXXXX\nXXXXX\n*****\n*****\n*****\n",
+    "7_a_spruce.py": "  *\n ***\n*****\n  *\n",
+    "8_the_greatest_number.py": "4\n99\n0\n",
+    "9_same_characters.py": "False\nTrue\nFalse\n",
+    "10_first_second_last_words.py": "it\nwas\nnight\nwas\nwas\n",
     # Section 4.2 - Lists (some non-interactive function outputs)
-    "4.2.6_length_of_list.py": "5\n",
-    "4.2.7_arithmetic_mean.py": "3.0\n",
-    "4.2.8_range_of_list.py": "4\n",
+    "16_length_of_list.py": "5\n",
+    "17_arithmetic_mean.py": "3.0\n",
+    "18_range_of_list.py": "4\n",
     # Section 4.3 - Definite iteration (function outputs)
-    "4.3.1_star_studded.py": "P*y*t*h*o*n\na*b*c\n",
-    "4.3.2_negative_to_positive.py": "[1, 2, 3, 4, 5]\n",
-    "4.3.3_list_of_stars.py": "***\n*******\n*\n*\n**\n",
-    "4.3.4_anagrams.py": "True\nTrue\nTrue\nFalse\nFalse\n",
-    "4.3.5_palindromes.py": "True\nFalse\n",
-    "4.3.6_sum_of_positives.py": "9\n",
-    "4.3.7_even_numbers.py": "[2, 4]\n",
-    "4.3.8_sum_of_lists.py": "[8, 10, 12]\n",
-    "4.3.9_distinct_numbers.py": "[1, 2, 3]\n",
-    "4.3.10_length_of_longest.py": "8\n7\n",
-    "4.3.11_shortest.py": "first\ntim\n",
-    "4.3.12_all_the_longest.py": "['eleventh']\n['dorothy', 'richard']\n",
+    "19_star_studded.py": "P*y*t*h*o*n\na*b*c\n",
+    "20_negative_to_positive.py": "[1, 2, 3, 4, 5]\n",
+    "21_list_of_stars.py": "***\n*******\n*\n*\n**\n",
+    "22_anagrams.py": "True\nTrue\nTrue\nFalse\nFalse\n",
+    "23_palindromes.py": "True\nFalse\n",
+    "24_sum_of_positives.py": "9\n",
+    "25_even_numbers.py": "[2, 4]\n",
+    "26_sum_of_lists.py": "[8, 10, 12]\n",
+    "27_distinct_numbers.py": "[1, 2, 3]\n",
+    "28_length_of_longest.py": "8\n7\n",
+    "29_shortest.py": "first\ntim\n",
+    "30_all_the_longest.py": "['eleventh']\n['dorothy', 'richard']\n",
     # Section 4.4 - Print statement formatting
-    "4.4.1_integers_to_strings.py": "['1.23', '0.33', '0.11', '3.45']\n",
+    "31_integers_to_strings.py": "['1.23', '0.33', '0.11', '3.45']\n",
     # Section 4.5 - More strings and lists
-    "4.5.1_everything_reversed.py": "['erom eno', 'elpmaxe', 'ereht', 'iH']\n",
-    "4.5.2_most_common_character.py": "b\ne\n",
-    "4.5.3_no_vowels_allowed.py": "ths s n xmpl\n",
-    "4.5.4_no_shouting_allowed.py": "['def', 'lower', 'another']\n",
-    "4.5.5_neighbours_in_list.py": "4\n",
+    "32_everything_reversed.py": "['erom eno', 'elpmaxe', 'ereht', 'iH']\n",
+    "33_most_common_character.py": "b\ne\n",
+    "34_no_vowels_allowed.py": "ths s n xmpl\n",
+    "35_no_shouting_allowed.py": "['def', 'lower', 'another']\n",
+    "36_neighbours_in_list.py": "4\n",
 }
 INTERACTIVE = {
     # Section 4.2 - Lists (interactive exercises)
-    "4.2.1_change_value.py": {
+    "11_change_value.py": {
         "inputs": ["0", "10", "2", "250", "4", "-45", "-1"],
         "expected_output": "Index: New value: [10, 2, 3, 4, 5]\nIndex: New value: [10, 2, 250, 4, 5]\nIndex: New value: [10, 2, 250, 4, -45]\nIndex: "
     },
-    "4.2.2_add_items.py": {
+    "12_add_items.py": {
         "inputs": ["3", "10", "250", "-45"],
         "expected_output": "How many items: Item 1: Item 2: Item 3: [10, 250, -45]\n"
     },
-    "4.2.3_addition_and_removal.py": {
+    "13_addition_and_removal.py": {
         "inputs": ["a", "a", "a", "r", "a", "v"],
         "expected_output": "The list is now []\na(dd)/r(emove)/e(xit): The list is now [1]\na(dd)/r(emove)/e(xit): The list is now [1, 2]\na(dd)/r(emove)/e(xit): The list is now [1, 2, 3]\na(dd)/r(emove)/e(xit): The list is now [1, 2]\na(dd)/r(emove)/e(xit): The list is now [1, 2, 3]\na(dd)/r(emove)/e(xit): Bye!\n"
     },
-    "4.2.4_same_word_twice.py": {
+    "14_same_word_twice.py": {
         "inputs": ["once", "upon", "a", "time", "upon"],
         "expected_output": "Word: Word: Word: Word: Word: You typed in 4 different words\n"
     },
-    "4.2.5_list_twice.py": {
+    "15_list_twice.py": {
         "inputs": ["3", "1", "9", "5", "0"],
         "expected_output": "New item: The list now: [3]\nThe list in order: [3]\nNew item: The list now: [3, 1]\nThe list in order: [1, 3]\nNew item: The list now: [3, 1, 9]\nThe list in order: [1, 3, 9]\nNew item: The list now: [3, 1, 9, 5]\nThe list in order: [1, 3, 5, 9]\nNew item: Bye!\n"
     },
     # Section 4.5 - Grade statistics (complex interactive)
-    "4.5.6_grade_statistics.py": {
+    "37_grade_statistics.py": {
         "inputs": ["15", "21", "28", "31", "35", "38", "42", ""],
         "expected_output": "Exam results: Exam results: Exam results: Exam results: Exam results: Exam results: Exam results: Exam results: Statistics:\nPoints average: 30.0\nPass percentage: 85.7\nGrade distribution:\n  5: ***\n  4: *\n  3: *\n  2: \n  1: **\n  0: *\n"
     },

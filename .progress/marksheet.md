@@ -2,7 +2,7 @@
 
 ## Hi Deepak Chhetri, check your scores below!
 
-Last updated: 2026-02-25 22:38:37
+Last updated: 2026-02-26 20:16:32
 
 | Part | Score | Max | Percent | Progress |
 |------|-------|-----|---------|----------|
@@ -87,135 +87,135 @@ _Note: Part 5 is optional and not counted toward the total._
 - Tasks passed: 0
 - Tasks failed: 34
 - Failed task files:
-  - `3.1.1_print_numbers.py`
-  - `3.1.2_fix_the_code_countdown.py`
-  - `3.1.3_numbers.py`
-  - `3.1.4_powers_of_two.py`
-  - `3.1.5_powers_of_base_n.py`
-  - `3.1.6_sum_of_consecutive_numbers_v1.py`
-  - `3.1.7_sum_of_consecutive_numbers_v2.py`
-  - `3.2.10_substrings_part1.py`
-  - `3.2.11_substrings_part2.py`
-  - `3.2.12_does_it_contain_vowels.py`
-  - `3.2.13_find_the_first_substring.py`
-  - `3.2.14_find_all_substrings.py`
-  - `3.2.15_the_second_occurrence.py`
-  - `3.2.1_string_multiplied.py`
-  - `3.2.2_the_longer_string.py`
-  - `3.2.3_end_to_beginning.py`
-  - `3.2.4_second_and_second_to_last.py`
-  - `3.2.5_a_line_of_hashes.py`
-  - `3.2.6_a_rectangle_of_hashes.py`
-  - `3.2.7_underlining.py`
-  - `3.2.8_right_aligned.py`
-  - `3.2.9_a_framed_word.py`
-  - `3.3.1_multiplication.py`
-  - `3.3.2_first_letters_of_words.py`
-  - `3.3.3_factorial.py`
-  - `3.3.4_flip_the_pairs.py`
-  - `3.3.5_taking_turns.py`
-  - `3.4.1_seven_brothers.py`
-  - `3.4.2_the_first_character.py`
-  - `3.4.3_mean.py`
-  - `3.4.4_print_many_times.py`
-  - `3.4.5_a_square_of_hashes.py`
-  - `3.4.6_chessboard.py`
-  - `3.4.7_a_word_squared.py`
+  - `10_end_to_beginning.py`
+  - `11_second_and_second_to_last.py`
+  - `12_a_line_of_hashes.py`
+  - `13_a_rectangle_of_hashes.py`
+  - `14_underlining.py`
+  - `15_right_aligned.py`
+  - `16_a_framed_word.py`
+  - `17_substrings_part1.py`
+  - `18_substrings_part2.py`
+  - `19_does_it_contain_vowels.py`
+  - `1_print_numbers.py`
+  - `20_find_the_first_substring.py`
+  - `21_find_all_substrings.py`
+  - `22_the_second_occurrence.py`
+  - `23_multiplication.py`
+  - `24_first_letters_of_words.py`
+  - `25_factorial.py`
+  - `26_flip_the_pairs.py`
+  - `27_taking_turns.py`
+  - `28_seven_brothers.py`
+  - `29_the_first_character.py`
+  - `2_fix_the_code_countdown.py`
+  - `30_mean.py`
+  - `31_print_many_times.py`
+  - `32_a_square_of_hashes.py`
+  - `33_chessboard.py`
+  - `34_a_word_squared.py`
+  - `3_numbers.py`
+  - `4_powers_of_two.py`
+  - `5_powers_of_base_n.py`
+  - `6_sum_of_consecutive_numbers_v1.py`
+  - `7_sum_of_consecutive_numbers_v2.py`
+  - `8_string_multiplied.py`
+  - `9_the_longer_string.py`
 
 ### Part 4
 - Tasks passed: 0
 - Tasks failed: 37
 - Failed task files:
-  - `4.1.10_first_second_last_words.py`
-  - `4.1.1_line.py`
-  - `4.1.2_a_box_of_hashes.py`
-  - `4.1.3_a_square_of_hashes.py`
-  - `4.1.4_a_square.py`
-  - `4.1.5_a_triangle.py`
-  - `4.1.6_a_shape.py`
-  - `4.1.7_a_spruce.py`
-  - `4.1.8_the_greatest_number.py`
-  - `4.1.9_same_characters.py`
-  - `4.2.1_change_value.py`
-  - `4.2.2_add_items.py`
-  - `4.2.3_addition_and_removal.py`
-  - `4.2.4_same_word_twice.py`
-  - `4.2.5_list_twice.py`
-  - `4.2.6_length_of_list.py`
-  - `4.2.7_arithmetic_mean.py`
-  - `4.2.8_range_of_list.py`
-  - `4.3.10_length_of_longest.py`
-  - `4.3.11_shortest.py`
-  - `4.3.12_all_the_longest.py`
-  - `4.3.1_star_studded.py`
-  - `4.3.2_negative_to_positive.py`
-  - `4.3.3_list_of_stars.py`
-  - `4.3.4_anagrams.py`
-  - `4.3.5_palindromes.py`
-  - `4.3.6_sum_of_positives.py`
-  - `4.3.7_even_numbers.py`
-  - `4.3.8_sum_of_lists.py`
-  - `4.3.9_distinct_numbers.py`
-  - `4.4.1_integers_to_strings.py`
-  - `4.5.1_everything_reversed.py`
-  - `4.5.2_most_common_character.py`
-  - `4.5.3_no_vowels_allowed.py`
-  - `4.5.4_no_shouting_allowed.py`
-  - `4.5.5_neighbours_in_list.py`
-  - `4.5.6_grade_statistics.py`
+  - `10_first_second_last_words.py`
+  - `11_change_value.py`
+  - `12_add_items.py`
+  - `13_addition_and_removal.py`
+  - `14_same_word_twice.py`
+  - `15_list_twice.py`
+  - `16_length_of_list.py`
+  - `17_arithmetic_mean.py`
+  - `18_range_of_list.py`
+  - `19_star_studded.py`
+  - `1_line.py`
+  - `20_negative_to_positive.py`
+  - `21_list_of_stars.py`
+  - `22_anagrams.py`
+  - `23_palindromes.py`
+  - `24_sum_of_positives.py`
+  - `25_even_numbers.py`
+  - `26_sum_of_lists.py`
+  - `27_distinct_numbers.py`
+  - `28_length_of_longest.py`
+  - `29_shortest.py`
+  - `2_a_box_of_hashes.py`
+  - `30_all_the_longest.py`
+  - `31_integers_to_strings.py`
+  - `32_everything_reversed.py`
+  - `33_most_common_character.py`
+  - `34_no_vowels_allowed.py`
+  - `35_no_shouting_allowed.py`
+  - `36_neighbours_in_list.py`
+  - `37_grade_statistics.py`
+  - `3_a_square_of_hashes.py`
+  - `4_a_square.py`
+  - `5_a_triangle.py`
+  - `6_a_shape.py`
+  - `7_a_spruce.py`
+  - `8_the_greatest_number.py`
+  - `9_same_characters.py`
 
 ### Part 5
 - Tasks passed: 0
 - Tasks failed: 25
 - Failed task files:
-  - `5.1.1_the_longest_string.py`
-  - `5.1.2_number_of_matching_elements.py`
-  - `5.1.3_go.py`
-  - `5.1.4_sudoku_check_row.py`
-  - `5.1.5_sudoku_check_column.py`
-  - `5.1.6_sudoku_check_block.py`
-  - `5.1.7_sudoku_check_grid.py`
-  - `5.2.1_items_multiplied_by_two.py`
-  - `5.2.2_remove_the_smallest.py`
-  - `5.2.5_tic_tac_toe.py`
-  - `5.2.6_transpose_matrix.py`
-  - `5.3.1_times_ten.py`
-  - `5.3.2_factorials.py`
-  - `5.3.3_histogram.py`
-  - `5.3.4_phone_book_v1.py`
-  - `5.3.5_phone_book_v2.py`
-  - `5.3.6_invert_dictionary.py`
-  - `5.3.7_numbers_spelled_out.py`
-  - `5.3.8_movie_database.py`
-  - `5.3.9_find_movies.py`
-  - `5.4.1_create_tuple.py`
-  - `5.4.2_the_oldest_person.py`
-  - `5.4.3_older_people.py`
-  - `5.4.4_student_database.py`
-  - `5.4.5_square_of_letters.py`
+  - `12_tic_tac_toe.py`
+  - `13_transpose_matrix.py`
+  - `14_times_ten.py`
+  - `15_factorials.py`
+  - `16_histogram.py`
+  - `17_phone_book_v1.py`
+  - `18_phone_book_v2.py`
+  - `19_invert_dictionary.py`
+  - `1_the_longest_string.py`
+  - `20_numbers_spelled_out.py`
+  - `21_movie_database.py`
+  - `22_find_movies.py`
+  - `23_create_tuple.py`
+  - `24_the_oldest_person.py`
+  - `25_older_people.py`
+  - `26_student_database.py`
+  - `27_square_of_letters.py`
+  - `2_number_of_matching_elements.py`
+  - `3_go.py`
+  - `4_sudoku_check_row.py`
+  - `5_sudoku_check_column.py`
+  - `6_sudoku_check_block.py`
+  - `7_sudoku_check_grid.py`
+  - `8_items_multiplied_by_two.py`
+  - `9_remove_the_smallest.py`
 
 ### Part 6
 - Tasks passed: 0
 - Tasks failed: 19
 - Failed task files:
-  - `6.1.1_largest_number.py`
-  - `6.1.2_fruit_market.py`
-  - `6.1.3_matrix.py`
-  - `6.1.4_course_grading_part1.py`
-  - `6.1.5_course_grading_part2.py`
-  - `6.1.6_course_grading_part3.py`
-  - `6.1.7_spell_checker.py`
-  - `6.1.8_recipe_search.py`
-  - `6.1.9_city_bikes.py`
-  - `6.2.1_inscription.py`
-  - `6.2.2_diary.py`
-  - `6.2.3_filtering_contents.py`
-  - `6.2.4_store_personal_data.py`
-  - `6.2.5_course_grading_part4.py`
-  - `6.2.6_word_search.py`
-  - `6.2.7_dictionary_file.py`
-  - `6.3.1_reading_input.py`
-  - `6.3.2_parameter_validation.py`
-  - `6.3.3_incorrect_lottery.py`
+  - `10_inscription.py`
+  - `11_diary.py`
+  - `12_filtering_contents.py`
+  - `13_store_personal_data.py`
+  - `14_course_grading_part4.py`
+  - `15_word_search.py`
+  - `16_dictionary_file.py`
+  - `17_reading_input.py`
+  - `18_parameter_validation.py`
+  - `19_incorrect_lottery.py`
+  - `1_largest_number.py`
+  - `2_fruit_market.py`
+  - `3_matrix.py`
+  - `4_course_grading_part1.py`
+  - `5_course_grading_part2.py`
+  - `6_course_grading_part3.py`
+  - `7_spell_checker.py`
+  - `8_recipe_search.py`
+  - `9_city_bikes.py`
 
 > This file is auto-generated by the grader whenever it runs.

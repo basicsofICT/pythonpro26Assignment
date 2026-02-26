@@ -19,40 +19,40 @@ MARKSHEET_DIR = WORKSPACE_ROOT / ".progress"
 
 EXPECTED = {
     # Section 5.1 - More lists (function outputs)
-    "5.1.1_the_longest_string.py": "eleventh\ndorothy\n",
-    "5.1.2_number_of_matching_elements.py": "3\n",
-    "5.1.3_go.py": "1\n",
-    "5.1.4_sudoku_check_row.py": "True\nFalse\n",
-    "5.1.5_sudoku_check_column.py": "False\nTrue\n",
-    "5.1.6_sudoku_check_block.py": "False\nTrue\n",
-    "5.1.7_sudoku_check_grid.py": "False\nTrue\n",
+    "1_the_longest_string.py": "eleventh\ndorothy\n",
+    "2_number_of_matching_elements.py": "3\n",
+    "3_go.py": "1\n",
+    "4_sudoku_check_row.py": "True\nFalse\n",
+    "5_sudoku_check_column.py": "False\nTrue\n",
+    "6_sudoku_check_block.py": "False\nTrue\n",
+    "7_sudoku_check_grid.py": "False\nTrue\n",
     # Section 5.2 - References (function outputs)
-    "5.2.1_items_multiplied_by_two.py": "[4, 8, 10, 6, 22]\n",
-    "5.2.2_remove_the_smallest.py": "[2, 4, 6, 3, 5]\n",
-    "5.2.5_tic_tac_toe.py": "True\n[['', '', ''], ['', '', ''], ['X', '', '']]\nFalse\n[['', '', ''], ['', '', ''], ['X', '', '']]\n",
-    "5.2.6_transpose_matrix.py": "[[1, 4, 7], [2, 5, 8], [3, 6, 9]]\n",
+    "8_items_multiplied_by_two.py": "[4, 8, 10, 6, 22]\n",
+    "9_remove_the_smallest.py": "[2, 4, 6, 3, 5]\n",
+    "12_tic_tac_toe.py": "True\n[['', '', ''], ['', '', ''], ['X', '', '']]\nFalse\n[['', '', ''], ['', '', ''], ['X', '', '']]\n",
+    "13_transpose_matrix.py": "[[1, 4, 7], [2, 5, 8], [3, 6, 9]]\n",
     # Section 5.3 - Dictionary (function outputs)
-    "5.3.1_times_ten.py": "{3: 30, 4: 40, 5: 50, 6: 60}\n",
-    "5.3.2_factorials.py": "1\n6\n120\n",
-    "5.3.3_histogram.py": "a **\nb **\ns **\nt ***\na **\ni **\nc *\nl **\ny *\n",
-    "5.3.6_invert_dictionary.py": "{'first': 1, 'second': 2, 'third': 3, 'fourth': 4}\n",
-    "5.3.7_numbers_spelled_out.py": "two\neleven\nforty-five\nninety-nine\nzero\n",
-    "5.3.8_movie_database.py": "[{'name': 'Gone with the Python', 'director': 'Victor Virus', 'year': 2017, 'runtime': 116}, {'name': 'Pythons on a Plane', 'director': 'Renny Harlin', 'year': 2001, 'runtime': 94}]\n",
-    "5.3.9_find_movies.py": "[{'name': 'Gone with the Python', 'director': 'Victor Virus', 'year': 2017, 'runtime': 116}, {'name': 'Pythons on a Plane', 'director': 'Renny Harlin', 'year': 2001, 'runtime': 94}]\n",
+    "14_times_ten.py": "{3: 30, 4: 40, 5: 50, 6: 60}\n",
+    "15_factorials.py": "1\n6\n120\n",
+    "16_histogram.py": "a **\nb **\ns **\nt ***\na **\ni **\nc *\nl **\ny *\n",
+    "19_invert_dictionary.py": "{'first': 1, 'second': 2, 'third': 3, 'fourth': 4}\n",
+    "20_numbers_spelled_out.py": "two\neleven\nforty-five\nninety-nine\nzero\n",
+    "21_movie_database.py": "[{'name': 'Gone with the Python', 'director': 'Victor Virus', 'year': 2017, 'runtime': 116}, {'name': 'Pythons on a Plane', 'director': 'Renny Harlin', 'year': 2001, 'runtime': 94}]\n",
+    "22_find_movies.py": "[{'name': 'Gone with the Python', 'director': 'Victor Virus', 'year': 2017, 'runtime': 116}, {'name': 'Pythons on a Plane', 'director': 'Renny Harlin', 'year': 2001, 'runtime': 94}]\n",
     # Section 5.4 - Tuple (function outputs)
-    "5.4.1_create_tuple.py": "(7, -1, 5)\n",
-    "5.4.2_the_oldest_person.py": "Mary\n",
-    "5.4.3_older_people.py": "['Adam', 'Mary']\n",
-    "5.4.4_student_database.py": "Peter:\n 0 completed courses\n average grade 0.0\nPeter:\n 2 completed courses\n average grade 2.5\nEliza:\n 0 completed courses\n average grade 0.0\n",
-    "5.4.5_square_of_letters.py": "AAA\nABA\nAAA\nAAAAA\nABBBA\nABCBA\nABBBA\nAAAAA\n",
+    "23_create_tuple.py": "(7, -1, 5)\n",
+    "24_the_oldest_person.py": "Mary\n",
+    "25_older_people.py": "['Adam', 'Mary']\n",
+    "26_student_database.py": "Peter:\n 0 completed courses\n average grade 0.0\nPeter:\n 2 completed courses\n average grade 2.5\nEliza:\n 0 completed courses\n average grade 0.0\n",
+    "27_square_of_letters.py": "AAA\nABA\nAAA\nAAAAA\nABBBA\nABCBA\nABBBA\nAAAAA\n",
 }
 INTERACTIVE = {
     # Section 5.3 - Dictionary (interactive programs)
-    "5.3.4_phone_book_v1.py": {
+    "17_phone_book_v1.py": {
         "inputs": ["2", "peter", "040-5466745", "2", "emily", "045-1212344", "1", "peter", "1", "mary", "3"],
         "expected_output": "command (1 search, 2 add, 3 quit): name: number: ok!\ncommand (1 search, 2 add, 3 quit): name: number: ok!\ncommand (1 search, 2 add, 3 quit): name: 040-5466745\ncommand (1 search, 2 add, 3 quit): name: no number\ncommand (1 search, 2 add, 3 quit): quitting...\n"
     },
-    "5.3.5_phone_book_v2.py": {
+    "18_phone_book_v2.py": {
         "inputs": ["2", "peter", "040-5466745", "2", "peter", "09-111333", "1", "peter", "1", "mary", "3"],
         "expected_output": "command (1 search, 2 add, 3 quit): name: number: ok!\ncommand (1 search, 2 add, 3 quit): name: number: ok!\ncommand (1 search, 2 add, 3 quit): name: 040-5466745\n09-111333\ncommand (1 search, 2 add, 3 quit): name: no number\ncommand (1 search, 2 add, 3 quit): quitting...\n"
     },
