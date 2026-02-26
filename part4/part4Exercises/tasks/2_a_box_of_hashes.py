@@ -2,33 +2,34 @@
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
 Run: python 4.1.2_a_box_of_hashes.py | Check: python grade_part4.py
 
-4.1.2 A Box of Hashes
+A box of hashes
 
-Task: Define a function box_of_hashes(height) which prints a box of '#' characters,
-10 characters wide and `height` rows tall. Reuse your line() function from 4.1.1.
+Task: Please write a function named box_of_hashes, which prints out a rectangle of hash characters. The function takes one argument, which specifies the height of the rectangle. The rectangle should be ten characters wide.
 
-Example (when implemented):
-box_of_hashes(5) -> prints a 10x5 rectangle of '#'
+The function should call the function line from the exercise above for the actual printing out. Copy your solution to that exercise above the code for this exercise. Please don't change anything in the line function.
+
+Some examples of how the function should work:
+
+box_of_hashes(5)
+print()
+box_of_hashes(2)
+
+Sample output
+
+##########
+##########
+##########
+##########
+##########
+
+##########
+##########
+
 """
-
-# TODO: Implement your solution below this line
-def line(length: int, text: str):
-    # Print a line of the requested length using the first character of text
-    # If text is empty, use '*'
-    pass
-
-def box_of_hashes(height: int):
-    # Print a 10-character wide line of '#' height times
-    pass
-
-# You can test locally by uncommenting the call below
-# box_of_hashes(5)
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.1.2_a_box_of_hashes.py
+# Save your file and run it using: python 2_a_box_of_hashes.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

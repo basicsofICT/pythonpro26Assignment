@@ -1,29 +1,22 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.5.1_everything_reversed.py | Check: python grade_part4.py
+Run: python 32_everything_reversed.py | Check: python grade_part4.py
 
-4.5.1 Everything Reversed
+Everything reversed
 
-Task: Define a function everything_reversed(strings) which returns a new list containing
-all the strings from the input list in reverse order, and with each string itself reversed.
+Task: Please write a function named everything_reversed, which takes a list of strings as its argument. The function returns a new list with all strings in the original list reversed. Also, the order of the items should be reversed in the new list.
 
-Example (when implemented):
-print(everything_reversed(["Hi", "there", "example", "one more"])) -> ['erom eno', 'elpmaxe', 'ereht', 'iH']
+my_list = ["Hi", "there", "example", "one more"]
+new_list = everything_reversed(my_list)
+print(new_list)
+
+Sample output:
+['erom eno', 'elpmaxe', 'ereht', 'iH']
 """
-
-# TODO: Implement your solution below this line
-def everything_reversed(strings: list[str]) -> list[str]:
-    # Reverse order of list and reverse each string
-    pass
-
-# You can test locally by uncommenting the call below
-# print(everything_reversed(["Hi", "there", "example", "one more"]))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.5.1_everything_reversed.py
+# Save your file and run it using: python 32_everything_reversed.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

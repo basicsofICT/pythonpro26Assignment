@@ -1,31 +1,30 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.3.5_palindromes.py | Check: python grade_part4.py
+Run: python 23_palindromes.py | Check: python grade_part4.py
 
-4.3.5 Palindromes
+Palindromes
 
-Task: Define a function palindromes(s) which returns True if the string is a palindrome
-(reads the same forwards and backwards), otherwise False.
+Task: Please write a function named palindromes, which takes a string argument and returns True if the string is a palindrome. Palindromes are words which are spelled exactly the same backwards and forwards.
 
-Example (when implemented):
-print(palindromes("abba")) -> True
-print(palindromes("python")) -> False
+Please also write a main program which asks the user to type in words until they type in a palindrome:
+
+Sample output
+Please type in a palindrome: python
+that wasn't a palindrome
+Please type in a palindrome: java
+that wasn't a palindrome
+Please type in a palindrome: oddoreven
+that wasn't a palindrome
+Please type in a palindrome: neveroddoreven
+neveroddoreven is a palindrome!
+
+NB:, the main program should not be within an if __name__ == "__main__": block
+
 """
-
-# TODO: Implement your solution below this line
-def palindromes(s: str) -> bool:
-    # Return True if s is a palindrome
-    pass
-
-# You can test locally by uncommenting the lines below
-# print(palindromes("abba"))
-# print(palindromes("python"))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.3.5_palindromes.py
+# Save your file and run it using: python 23_palindromes.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

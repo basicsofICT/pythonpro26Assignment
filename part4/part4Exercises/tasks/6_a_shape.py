@@ -2,14 +2,22 @@
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
 Run: python 4.1.6_a_shape.py | Check: python grade_part4.py
 
-4.1.6 A Shape
+A shape
 
-Task: Define a function shape(size, ch1, height2, ch2) which first prints a left-aligned
-triangle of `ch1` from 1..size, and then prints a rectangle of width `size` and height
-`height2` using `ch2`.
+Task: Please write a function named shape, which takes four arguments. The first two parameters specify a triangle, as above, and the character used to draw it. The first parameter also specifies the width of a rectangle, while the third parameter specifies its height. The fourth parameter specifies the filler character of the rectangle. The function prints first the triangle, and then the rectangle below it.
 
-Example (when implemented):
-shape(5, "X", 3, "*") -> prints:
+The function should call the function line from the exercise above for the actual printing out. Copy your solution to that exercise above the code for this exercise. Please don't change anything in the line function.
+
+Some examples:
+
+shape(5, "X", 3, "*")
+print()
+shape(2, "o", 4, "+")
+print()
+shape(3, ".", 0, ",")
+
+Sample output
+
 X
 XX
 XXX
@@ -18,27 +26,23 @@ XXXXX
 *****
 *****
 *****
+
+o
+oo
+++
+++
+++
+++
+
+.
+..
+...
+
 """
-
-# TODO: Implement your solution below this line
-def line(length: int, text: str):
-    # Print a line of the requested length using the first character of text
-    # If text is empty, use '*'
-    pass
-
-def shape(size: int, ch1: str, height2: int, ch2: str):
-    # First print a left-aligned triangle of ch1 from 1..size
-    # Then print a rectangle width=size and height=height2 of ch2
-    pass
-
-# You can test locally by uncommenting the call below
-# shape(5, "X", 3, "*")
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.1.6_a_shape.py
+# Save your file and run it using: python 6_a_shape.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

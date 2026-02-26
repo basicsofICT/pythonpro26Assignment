@@ -30,17 +30,14 @@ EXPECTED = {
     "9_same_characters.py": "False\nTrue\nFalse\n",
     "10_first_second_last_words.py": "it\nwas\nnight\nwas\nwas\n",
     # Section 4.2 - Lists (some non-interactive function outputs)
-    "16_length_of_list.py": "5\n",
-    "17_arithmetic_mean.py": "3.0\n",
-    "18_range_of_list.py": "4\n",
+    "16_length_of_list.py": "The length is 5\nThe length is 4\n",
+    "17_arithmetic_mean.py": "mean value is 3.0\n",
+    "18_range_of_list.py": "The range of the list is 4\n",
     # Section 4.3 - Definite iteration (function outputs)
-    "19_star_studded.py": "P*y*t*h*o*n\na*b*c\n",
-    "20_negative_to_positive.py": "[1, 2, 3, 4, 5]\n",
     "21_list_of_stars.py": "***\n*******\n*\n*\n**\n",
     "22_anagrams.py": "True\nTrue\nTrue\nFalse\nFalse\n",
-    "23_palindromes.py": "True\nFalse\n",
-    "24_sum_of_positives.py": "9\n",
-    "25_even_numbers.py": "[2, 4]\n",
+    "24_sum_of_positives.py": "The result is 9\n",
+    "25_even_numbers.py": "original [1, 2, 3, 4, 5]\nnew [2, 4]\n",
     "26_sum_of_lists.py": "[8, 10, 12]\n",
     "27_distinct_numbers.py": "[1, 2, 3]\n",
     "28_length_of_longest.py": "8\n7\n",
@@ -52,7 +49,7 @@ EXPECTED = {
     "32_everything_reversed.py": "['erom eno', 'elpmaxe', 'ereht', 'iH']\n",
     "33_most_common_character.py": "b\ne\n",
     "34_no_vowels_allowed.py": "ths s n xmpl\n",
-    "35_no_shouting_allowed.py": "['def', 'lower', 'another']\n",
+    "35_no_shouting_allowed.py": "['def', 'lower', 'Another']\n",
     "36_neighbours_in_list.py": "4\n",
 }
 INTERACTIVE = {
@@ -61,13 +58,26 @@ INTERACTIVE = {
         "inputs": ["0", "10", "2", "250", "4", "-45", "-1"],
         "expected_output": "Index: New value: [10, 2, 3, 4, 5]\nIndex: New value: [10, 2, 250, 4, 5]\nIndex: New value: [10, 2, 250, 4, -45]\nIndex: "
     },
+    # Section 4.3 - Definite iteration (interactive exercises)
+    "19_star_studded.py": {
+        "inputs": ["Python"],
+        "expected_output": "Please type in a string: P\n*\ny\n*\nt\n*\nh\n*\no\n*\nn\n*\n"
+    },
+    "20_negative_to_positive.py": {
+        "inputs": ["4"],
+        "expected_output": "Please type in a positive integer: -4\n-3\n-2\n-1\n1\n2\n3\n4\n"
+    },
+    "23_palindromes.py": {
+        "inputs": ["python", "java", "oddoreven", "neveroddoreven"],
+        "expected_output": "Please type in a palindrome: that wasn't a palindrome\nPlease type in a palindrome: that wasn't a palindrome\nPlease type in a palindrome: that wasn't a palindrome\nPlease type in a palindrome: neveroddoreven is a palindrome!\n"
+    },
     "12_add_items.py": {
         "inputs": ["3", "10", "250", "-45"],
         "expected_output": "How many items: Item 1: Item 2: Item 3: [10, 250, -45]\n"
     },
     "13_addition_and_removal.py": {
-        "inputs": ["a", "a", "a", "r", "a", "v"],
-        "expected_output": "The list is now []\na(dd)/r(emove)/e(xit): The list is now [1]\na(dd)/r(emove)/e(xit): The list is now [1, 2]\na(dd)/r(emove)/e(xit): The list is now [1, 2, 3]\na(dd)/r(emove)/e(xit): The list is now [1, 2]\na(dd)/r(emove)/e(xit): The list is now [1, 2, 3]\na(dd)/r(emove)/e(xit): Bye!\n"
+        "inputs": ["d", "d", "d", "r", "d", "x"],
+        "expected_output": "The list is now []\na(d)d, (r)emove or e(x)it: The list is now [1]\na(d)d, (r)emove or e(x)it: The list is now [1, 2]\na(d)d, (r)emove or e(x)it: The list is now [1, 2, 3]\na(d)d, (r)emove or e(x)it: The list is now [1, 2]\na(d)d, (r)emove or e(x)it: The list is now [1, 2, 3]\na(d)d, (r)emove or e(x)it: Bye!\n"
     },
     "14_same_word_twice.py": {
         "inputs": ["once", "upon", "a", "time", "upon"],
@@ -79,8 +89,8 @@ INTERACTIVE = {
     },
     # Section 4.5 - Grade statistics (complex interactive)
     "37_grade_statistics.py": {
-        "inputs": ["15", "21", "28", "31", "35", "38", "42", ""],
-        "expected_output": "Exam results: Exam results: Exam results: Exam results: Exam results: Exam results: Exam results: Exam results: Statistics:\nPoints average: 30.0\nPass percentage: 85.7\nGrade distribution:\n  5: ***\n  4: *\n  3: *\n  2: \n  1: **\n  0: *\n"
+        "inputs": ["15 87", "10 55", "11 40", "4 17", ""],
+        "expected_output": "Exam points and exercises completed: Exam points and exercises completed: Exam points and exercises completed: Exam points and exercises completed: Exam points and exercises completed: Statistics:\nPoints average: 14.5\nPass percentage: 75.0\nGrade distribution:\n  5: \n  4: \n  3: *\n  2: \n  1: **\n  0: *\n"
     },
 }
 

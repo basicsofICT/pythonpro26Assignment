@@ -1,28 +1,23 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.5.3_no_vowels_allowed.py | Check: python grade_part4.py
+Run: python 34_no_vowels_allowed.py | Check: python grade_part4.py
 
-4.5.3 No Vowels Allowed
+No vowels allowed
 
-Task: Define a function no_vowels(s) which returns a new string with all vowels removed.
+Task: Please write a function named no_vowels, which takes a string argument. The function returns a new string, which should be the same as the original but with all vowels removed.
 
-Example (when implemented):
-print(no_vowels("this is an example")) -> ths s n xmpl
+You can assume the string will contain only lower case characters a to z.
+
+my_string = "this is an example"
+print(no_vowels(my_string))
+
+Sample output:
+ths s n xmpl
 """
-
-# TODO: Implement your solution below this line
-def no_vowels(s: str) -> str:
-    # Return the string with all vowels removed (a, e, i, o, u)
-    pass
-
-# You can test locally by uncommenting the line below
-# print(no_vowels("this is an example"))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.5.3_no_vowels_allowed.py
+# Save your file and run it using: python 34_no_vowels_allowed.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

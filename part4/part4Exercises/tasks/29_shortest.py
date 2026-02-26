@@ -1,31 +1,29 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.3.11_shortest.py | Check: python grade_part4.py
+Run: python 29_shortest.py | Check: python grade_part4.py
 
-4.3.11 Shortest
+The shortest in a list
 
-Task: Define a function shortest(words) which returns the shortest string in the list.
-If multiple strings share the shortest length, return the first of those.
+Task: Please write a function named shortest, which takes a list of strings as its argument. The function returns whichever of the strings is the shortest. If more than one are equally short, the function can return any of the shortest strings (there will be no such situation in the tests). You may assume there will be no empty strings in the list.
 
-Example (when implemented):
-print(shortest(["first", "second", "third"])) -> first
-print(shortest(["tim", "dorothy"])) -> tim
+my_list = ["first", "second", "fourth", "eleventh"]
+
+result = shortest(my_list)
+print(result)
+
+my_list = ["adele", "mark", "dorothy", "tim", "hedy", "richard"]
+
+result = shortest(my_list)
+print(result)
+
+Sample output:
+first
+tim
 """
-
-# TODO: Implement your solution below this line
-def shortest(words: list[str]) -> str:
-    # Return the shortest string
-    pass
-
-# You can test locally by uncommenting the lines below
-# print(shortest(["first", "second", "third"]))
-# print(shortest(["tim", "dorothy"]))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.3.11_shortest.py
+# Save your file and run it using: python 29_shortest.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

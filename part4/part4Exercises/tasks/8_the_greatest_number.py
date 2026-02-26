@@ -2,31 +2,21 @@
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
 Run: python 4.1.8_the_greatest_number.py | Check: python grade_part4.py
 
-4.1.8 The Greatest Number
+The greatest number
 
-Task: Define a function greatest(a, b, c) which returns the greatest of three integers.
+Task: Please write a function named greatest_number, which takes three arguments. The function returns the greatest in value of the three.
 
-Example (when implemented):
-print(greatest(1, 3, 4)) -> 4
-print(greatest(99, 50, 98)) -> 99
-print(greatest(-10, 0, -30)) -> 0
+An example of how the function is used:
+
+print(greatest_number(3, 4, 1)) # 4
+print(greatest_number(99, -4, 7)) # 99
+print(greatest_number(0, 0, 0)) # 0
+
 """
-
-# TODO: Implement your solution below this line
-def greatest(a: int, b: int, c: int) -> int:
-    # Return the greatest of the three arguments
-    pass
-
-# You can test locally by uncommenting the calls below
-# print(greatest(1, 3, 4))
-# print(greatest(99, 50, 98))
-# print(greatest(-10, 0, -30))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.1.8_the_greatest_number.py
+# Save your file and run it using: python 8_the_greatest_number.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

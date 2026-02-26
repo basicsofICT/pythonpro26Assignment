@@ -1,29 +1,23 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.3.7_even_numbers.py | Check: python grade_part4.py
+Run: python 25_even_numbers.py | Check: python grade_part4.py
 
-4.3.7 Even Numbers
+Even numbers
 
-Task: Define a function even_numbers(numbers) which returns a list containing only the
-even numbers from the input list.
+Task: Please write a function named even_numbers, which takes a list of integers as an argument. The function returns a new list containing the even numbers from the original list.
 
-Example (when implemented):
-print(even_numbers([1, 2, 3, 4, 5])) -> [2, 4]
+my_list = [1, 2, 3, 4, 5]
+new_list = even_numbers(my_list)
+print("original", my_list)
+print("new", new_list)
+Sample output
+original [1, 2, 3, 4, 5]
+new [2, 4]
 """
-
-# TODO: Implement your solution below this line
-def even_numbers(numbers: list) -> list:
-    # Return the even numbers from the list
-    pass
-
-# You can test locally by uncommenting the call below
-# print(even_numbers([1, 2, 3, 4, 5]))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.3.7_even_numbers.py
+# Save your file and run it using: python 25_even_numbers.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

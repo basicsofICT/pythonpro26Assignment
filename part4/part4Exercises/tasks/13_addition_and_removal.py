@@ -1,32 +1,36 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.2.3_addition_and_removal.py | Check: python grade_part4.py
+Run: python 13_addition_and_removal.py | Check: python grade_part4.py
 
-4.2.3 Addition and Removal
+Addition and removal
 
-Interactive task:
-- Maintain a list of integers, starting as an empty list
-- After every operation print: The list is now [...]
-- Then prompt exactly: a(dd)/r(emove)/e(xit): 
-- If 'a', append the next integer (increase the last value by 1, starting from 1)
-- If 'r', remove the last item if the list is not empty
-- If 'e', print Bye! and stop
+Please write a program which asks the user to choose between addition and removal. Depending on the choice, the program adds an item to or removes an item from the end of a list. The item that is added must always be one greater than the last item in the list. The first item to be added must be 1.
 
-Example expected output (given inputs a, a, a, r, a, v):
+The list is printed out in the beginning and after each operation. Have a look at the example execution below:
+
+Sample output
 The list is now []
-a(dd)/r(emove)/e(xit): The list is now [1]
-a(dd)/r(emove)/e(xit): The list is now [1, 2]
-a(dd)/r(emove)/e(xit): The list is now [1, 2, 3]
-a(dd)/r(emove)/e(xit): The list is now [1, 2]
-a(dd)/r(emove)/e(xit): The list is now [1, 2, 3]
-a(dd)/r(emove)/e(xit): Bye!
+a(d)d, (r)emove or e(x)it: d
+The list is now [1]
+a(d)d, (r)emove or e(x)it: d
+The list is now [1, 2]
+a(d)d, (r)emove or e(x)it: d
+The list is now [1, 2, 3]
+a(d)d, (r)emove or e(x)it: r
+The list is now [1, 2]
+a(d)d, (r)emove or e(x)it: d
+The list is now [1, 2, 3]
+a(d)d, (r)emove or e(x)it: x
+Bye!
+
+You may assume that, if the list is empty, there will not be an attempt to remove items.
+
+NB: this exercise doesn't ask you to write any functions, so you should not place any code within an if __name__ == "__main__" block.
 """
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.2.3_addition_and_removal.py
+# Save your file and run it using: python 13_addition_and_removal.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

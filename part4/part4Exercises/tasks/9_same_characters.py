@@ -2,33 +2,26 @@
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
 Run: python 4.1.9_same_characters.py | Check: python grade_part4.py
 
-4.1.9 Same Characters
+Same characters
 
-Task: Define a function same_chars(text, index1, index2) which returns True if the
-characters at the given indices in text are the same, otherwise False. Assume indices
-are valid for the string length.
+Task: Please write a function named same_chars, which takes one string and two integers as arguments. The integers refer to indexes within the string. The function should return True if the two characters at the indexes specified are the same. Otherwise, and especially if either of the indexes falls outside the scope of the string, the function returns False.
 
-Example (when implemented):
-print(same_chars("abc", 0, 1)) -> False
-print(same_chars("abca", 0, 3)) -> True
-print(same_chars("xyz", 0, 2)) -> False
+Some examples of how the function is used:
+
+# same characters m and m
+print(same_chars("programmer", 6, 7)) # True
+
+# different characters p and r
+print(same_chars("programmer", 0, 4)) # False
+
+# the second index is not within the string
+print(same_chars("programmer", 0, 12)) # False
+
 """
-
-# TODO: Implement your solution below this line
-def same_chars(text: str, index1: int, index2: int) -> bool:
-    # Return True if characters at positions index1 and index2 are equal
-    pass
-
-# You can test locally by uncommenting the calls below
-# print(same_chars("abc", 0, 1))
-# print(same_chars("abca", 0, 3))
-# print(same_chars("xyz", 0, 2))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.1.9_same_characters.py
+# Save your file and run it using: python 9_same_characters.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

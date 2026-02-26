@@ -1,33 +1,26 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.3.4_anagrams.py | Check: python grade_part4.py
+Run: python 22_anagrams.py | Check: python grade_part4.py
 
-4.3.4 Anagrams
+Anagrams
 
-Task: Define a function anagrams(s1, s2) which returns True if the strings are anagrams
-of each other (ignoring case), otherwise False.
+Task: Please write a function named anagrams, which takes two strings as arguments. The function returns True if the strings are anagrams of each other. Two words are anagrams if they contain exactly the same characters.
 
-Example (when implemented):
-print(anagrams("silent", "listen")) -> True
-print(anagrams("abc", "cba")) -> True
-print(anagrams("statue", "status")) -> False
+Some examples of how the function should work:
+
+print(anagrams("tame", "meta")) # True
+print(anagrams("tame", "mate")) # True
+print(anagrams("tame", "team")) # True
+print(anagrams("tabby", "batty")) # False
+print(anagrams("python", "java")) # False
+
+Hint: the function sorted can be used on strings as well.
+
 """
-
-# TODO: Implement your solution below this line
-def anagrams(s1: str, s2: str) -> bool:
-    # Return True if s1 and s2 are anagrams (ignore case)
-    pass
-
-# You can test locally by uncommenting the lines below
-# print(anagrams("silent", "listen"))
-# print(anagrams("abc", "cba"))
-# print(anagrams("statue", "status"))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.3.4_anagrams.py
+# Save your file and run it using: python 22_anagrams.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

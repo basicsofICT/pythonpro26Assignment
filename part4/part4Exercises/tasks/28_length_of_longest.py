@@ -1,31 +1,29 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.3.10_length_of_longest.py | Check: python grade_part4.py
+Run: python 28_length_of_longest.py | Check: python grade_part4.py
 
-4.3.10 Length of Longest
+Length of the longest
 
-Task: Define a function length_of_longest(words) which returns the length of the
-longest string in the list.
+Task: Please write a function named length_of_longest, which takes a list of strings as its argument. The function returns the length of the longest string.
 
-Example (when implemented):
-print(length_of_longest(["abc", "elephant"])) -> 8
-print(length_of_longest(["tim", "dorothy"])) -> 7
+my_list = ["first", "second", "fourth", "eleventh"]
+
+result = length_of_longest(my_list)
+print(result)
+
+my_list = ["adele", "mark", "dorothy", "tim", "hedy", "richard"]
+
+result = length_of_longest(my_list)
+print(result)
+
+Sample output:
+8
+7
 """
-
-# TODO: Implement your solution below this line
-def length_of_longest(words: list[str]) -> int:
-    # Return the maximum length among the words
-    pass
-
-# You can test locally by uncommenting the lines below
-# print(length_of_longest(["abc", "elephant"]))
-# print(length_of_longest(["tim", "dorothy"]))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.3.10_length_of_longest.py
+# Save your file and run it using: python 28_length_of_longest.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

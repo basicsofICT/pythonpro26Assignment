@@ -1,32 +1,32 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.2.1_change_value.py | Check: python grade_part4.py
+Run: python 11_change_value.py | Check: python grade_part4.py
 
-4.2.1 Change Value
+Change the value of an item
 
-Interactive task:
-- Start with a list: [1, 2, 3, 4, 5]
-- Repeatedly ask for an index and a new value
-- Prompt format must match exactly:
-  Index: 
-  New value: 
-- Change stops when user enters -1 for the index
-- After each change, print the updated list
-- Exact output should match the grader expectations
+Task: Please write a program which initialises a list with the values [1, 2, 3, 4, 5]. Then the program should ask the user for an index and a new value, replace the value at the given index, and print the list again. This should be looped over until the user gives -1 for the index. You can assume all given index values will fall within your list.
 
-Example session (inputs): 0, 10, 2, 250, 4, -45, -1
-Expected output:
-Index: New value: [10, 2, 3, 4, 5]
-Index: New value: [10, 2, 250, 4, 5]
-Index: New value: [10, 2, 250, 4, -45]
-Index: 
+An example execution of the program:
+
+Sample output
+
+Index: 0
+New value: 10
+[10, 2, 3, 4, 5]
+Index: 2
+New value: 250
+[10, 2, 250, 4, 5]
+Index: 4
+New value: -45
+[10, 2, 250, 4, -45]
+Index: -1
+
+NB: this exercise doesn't ask you to write any functions, so you should not place any code within an if __name__ == "__main__" block.
 """
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.2.1_change_value.py
+# Save your file and run it using: python 11_change_value.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

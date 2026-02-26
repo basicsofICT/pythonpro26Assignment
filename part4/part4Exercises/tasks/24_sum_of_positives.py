@@ -1,29 +1,23 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.3.6_sum_of_positives.py | Check: python grade_part4.py
+Run: python 24_sum_of_positives.py | Check: python grade_part4.py
 
-4.3.6 Sum of Positives
+Sum of positives
 
-Task: Define a function sum_of_positives(numbers) which returns the sum of the positive
-integers in the list.
+Task: Please write a function named sum_of_positives, which takes a list of integers as its argument. The function returns the sum of the positive values in the list.
 
-Example (when implemented):
-print(sum_of_positives([-1, 2, -3, 4, 3, -1])) -> 9
+my_list = [1, -2, 3, -4, 5]
+result = sum_of_positives(my_list)
+print("The result is", result)
+
+Sample output
+The result is 9
+
 """
-
-# TODO: Implement your solution below this line
-def sum_of_positives(numbers: list) -> int:
-    # Return the sum of positive numbers in the list
-    pass
-
-# You can test locally by uncommenting the call below
-# print(sum_of_positives([-1, 2, -3, 4, 3, -1]))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.3.6_sum_of_positives.py
+# Save your file and run it using: python 24_sum_of_positives.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

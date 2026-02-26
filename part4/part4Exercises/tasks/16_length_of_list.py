@@ -1,28 +1,28 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.2.6_length_of_list.py | Check: python grade_part4.py
+Run: python 16_length_of_list.py | Check: python grade_part4.py
 
-4.2.6 Length of List
+Length of a list
 
-Task: Define a function length(lst) which returns the number of items in the list.
+Task: Please write a function named length which takes a list as its argument and returns the length of the list.
 
-Example (when implemented):
-print(length([1, 2, 3, 4, 5])) -> 5
+my_list = [1, 2, 3, 4, 5]
+result = length(my_list)
+print("The length is", result)
+
+# the list given as an argument doesn't need to be stored in any variable
+result = length([1, 1, 1, 1])
+print("The length is", result)
+
+Sample output
+
+The length is 5
+The length is 4
 """
-
-# TODO: Implement your solution below this line
-def length(lst: list) -> int:
-    # Return the number of items in the list
-    pass
-
-# You can test locally by uncommenting the call below
-# print(length([1, 2, 3, 4, 5]))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.2.6_length_of_list.py
+# Save your file and run it using: python 16_length_of_list.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

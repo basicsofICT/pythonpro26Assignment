@@ -1,53 +1,35 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.1.10_first_second_last_words.py | Check: python grade_part4.py
+Run: python 10_first_second_last_words.py | Check: python grade_part4.py
 
-4.1.10 First, Second, and Last Words
+First, second and last words
 
-Task: Implement three functions which operate on a sentence (words separated by spaces):
-- first_word(sentence) -> returns the first word
-- second_word(sentence) -> returns the second word
-- last_word(sentence) -> returns the last word
+Task: Please write three functions: first_word, second_word and last_word. Each function takes a string argument.
 
-Example (when implemented):
-s1 = "it was night"
-print(first_word(s1))   # it
-print(second_word(s1))  # was
-print(last_word(s1))    # night
-s2 = "this was tricky"
-print(second_word(s2))  # was
-s3 = "was indeed"
-print(first_word(s3))   # was
+As their names imply, the functions return the first, second and last word in the sentence they receive as their argument.
+
+In each case you may assume the argument string contains at least two separate words, and all words are separated by exactly one space character.
+
+sentence = "it was a dark and stormy night"
+print(first_word(sentence)) # it
+print(second_word(sentence)) # was
+print(last_word(sentence)) # night
+
+second_sentence = "it was"
+print(second_word(second_sentence)) # was
+print(last_word(second_sentence)) # was
+
+Sample output:
+it
+was
+night
+was
+was
 """
-
-# TODO: Implement your solution below this line
-def first_word(sentence: str) -> str:
-    # Return the first word in the sentence
-    pass
-
-def second_word(sentence: str) -> str:
-    # Return the second word in the sentence
-    pass
-
-def last_word(sentence: str) -> str:
-    # Return the last word in the sentence
-    pass
-
-# You can test locally by uncommenting the lines below
-# s1 = "it was night"
-# print(first_word(s1))
-# print(second_word(s1))
-# print(last_word(s1))
-# s2 = "this was tricky"
-# print(second_word(s2))
-# s3 = "was indeed"
-# print(first_word(s3))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.1.10_first_second_last_words.py
+# Save your file and run it using: python 10_first_second_last_words.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

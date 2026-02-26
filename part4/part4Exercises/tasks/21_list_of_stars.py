@@ -1,14 +1,15 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.3.3_list_of_stars.py | Check: python grade_part4.py
+Run: python 21_list_of_stars.py | Check: python grade_part4.py
 
-4.3.3 List of Stars
+List of stars
 
-Task: Define a function list_of_stars(numbers) which prints a line of '*' for each
-number in the list, with that many stars.
+Task: Please write a function named list_of_stars, which takes a list of integers as its argument. The function should print out lines of star characters. The number of stars on each line is taken from the list.
 
-Example (when implemented):
-list_of_stars([3, 7, 1, 1, 2]) -> prints:
+For example, with the function call list_of_stars([3, 7, 1, 1, 2]) the function should print out
+
+Sample output:
+
 ***
 *******
 *
@@ -16,19 +17,9 @@ list_of_stars([3, 7, 1, 1, 2]) -> prints:
 **
 """
 
-# TODO: Implement your solution below this line
-def list_of_stars(numbers: list):
-    # Print lines of '*' corresponding to the values in numbers
-    pass
-
-# You can test locally by uncommenting the call below
-# list_of_stars([3, 7, 1, 1, 2])
-
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.3.3_list_of_stars.py
+# Save your file and run it using: python 21_list_of_stars.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

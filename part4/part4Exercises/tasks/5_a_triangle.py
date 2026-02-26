@@ -2,28 +2,36 @@
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
 Run: python 4.1.5_a_triangle.py | Check: python grade_part4.py
 
-4.1.5 A Triangle
+A triangle
 
-Task: Define a function triangle(size) which prints a left-aligned triangle of '#'
-with rows from 1 up to `size`.
+Task: Please write a function named triangle, which draws a triangle of hashes, and takes one argument. The triangle should be as tall and as wide as the value of the argument.
 
-Example (when implemented):
-triangle(5) -> prints rows of '#': 1,2,3,4,5
+The function should call the function line from the exercise above for the actual printing out. Copy your solution to that exercise above the code for this exercise. Please don't change anything in the line function.
+
+Some examples:
+
+triangle(6)
+print()
+triangle(3)
+
+Sample output
+
+#
+##
+###
+####
+#####
+######
+
+#
+##
+###
+
 """
-
-# TODO: Implement your solution below this line
-def triangle(size: int):
-    # Print rows 1..size where row i contains i '#'
-    pass
-
-# You can test locally by uncommenting the call below
-# triangle(5)
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.1.5_a_triangle.py
+# Save your file and run it using: python 5_a_triangle.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

@@ -120,11 +120,8 @@
         "16_length_of_list.py": false,
         "17_arithmetic_mean.py": false,
         "18_range_of_list.py": false,
-        "19_star_studded.py": false,
-        "20_negative_to_positive.py": false,
         "21_list_of_stars.py": false,
         "22_anagrams.py": false,
-        "23_palindromes.py": false,
         "24_sum_of_positives.py": false,
         "25_even_numbers.py": false,
         "26_sum_of_lists.py": false,
@@ -139,6 +136,9 @@
         "35_no_shouting_allowed.py": false,
         "36_neighbours_in_list.py": false,
         "11_change_value.py": false,
+        "19_star_studded.py": false,
+        "20_negative_to_positive.py": false,
+        "23_palindromes.py": false,
         "12_add_items.py": false,
         "13_addition_and_removal.py": false,
         "14_same_word_twice.py": false,
@@ -206,5 +206,5 @@
     }
   },
   "total_points": 0,
-  "updated_at": "2026-02-26 20:16:32"
+  "updated_at": "2026-02-26 22:05:44"
 }

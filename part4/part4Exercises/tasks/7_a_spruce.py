@@ -2,32 +2,39 @@
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
 Run: python 4.1.7_a_spruce.py | Check: python grade_part4.py
 
-4.1.7 A Spruce
+A spruce
 
-Task: Define a function spruce(size) which prints a spruce tree:
-- An isosceles triangle of '*' with rows 1,3,5,...,(2*size-1) centered
-- A trunk of a single '*' centered under the tree
+Task: Please write a function named spruce, which takes one argument. The function prints out the text a spruce!, and the a spruce tree, the size of which is specified by the argument.
 
-Example (when implemented for size=3):
+Calling spruce(3) should print out:
+
+Sample output
+
+a spruce!
   *
  ***
 *****
   *
+
+Calling spruce(5) should print out:
+
+Sample output
+
+a spruce!
+    *
+   ***
+  *****
+ *******
+*********
+    *
+
+NB: to the left of the spruce there should be exactly the right amount of whitespace. If the shape of the spruce looks correct, but the left edge of the tree is not touching the left edge of the text area in the terminal, the tests will not accept the solution.
+
 """
-
-# TODO: Implement your solution below this line
-def spruce(size: int):
-    # Print a centered spruce tree of the given size followed by a centered trunk
-    pass
-
-# You can test locally by uncommenting the call below
-# spruce(3)
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.1.7_a_spruce.py
+# Save your file and run it using: python 7_a_spruce.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:

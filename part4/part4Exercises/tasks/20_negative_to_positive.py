@@ -1,29 +1,31 @@
 """
 Quick Start: Click Terminal > New Terminal | pwd (check location) | cd part4/part4Exercises/tasks (if needed)
-Run: python 4.3.2_negative_to_positive.py | Check: python grade_part4.py
+Run: python 20_negative_to_positive.py | Check: python grade_part4.py
 
-4.3.2 Negative to Positive
+From Negative to positive
 
-Task: Define a function negative_to_positive(n) which returns a list of integers from
--n to n inclusive.
+Please write a program which asks the user for a positive integer N. The program then prints out all numbers between -N and N inclusive, but leaves out the number 0. Each number should be printed on a separate line.
 
-Example (when implemented):
-print(negative_to_positive(5)) -> [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
+An example of expected behaviour:
+
+Sample output
+Please type in a positive integer: 4
+-4
+-3
+-2
+-1
+1
+2
+3
+4
+
+NB: this exercise doesn't ask you to write any functions, so you should not place any code within an if __name__ == "__main__" block.
+
 """
-
-# TODO: Implement your solution below this line
-def negative_to_positive(n: int) -> list:
-    # Return a list from -n to n inclusive
-    pass
-
-# You can test locally by uncommenting the call below
-# print(negative_to_positive(5))
 
 # TODO: Write your solution below this line
 
-
-
-# Save your file and run it using: python 4.3.2_negative_to_positive.py
+# Save your file and run it using: python 20_negative_to_positive.py
 # Check: python grade_part4.py
 
 # Commit and push changes to GitHub:
