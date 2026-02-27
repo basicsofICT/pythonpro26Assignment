@@ -1,4 +1,4 @@
-name: Restore protected instructor files
+name: Restore protected files then grade (smart)
 
 on:
   push:
@@ -12,17 +12,60 @@ jobs:
     if: ${{ github.event.head_commit.message != 'Restore protected instructor files' }}
     runs-on: ubuntu-latest
 
+    outputs:
+      parts_to_grade: ${{ steps.detect.outputs.parts_to_grade }}
+      should_grade: ${{ steps.detect.outputs.should_grade }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Fetch instructor default branch
+      - name: Fetch instructor default branch (source of truth)
         run: |
           git fetch origin basicsofProgramming26:refs/remotes/origin/basicsofProgramming26
 
-      - name: Restore protected instructor files
+      - name: Detect which parts changed in this push
+        id: detect
+        run: |
+          set -e
+
+          # Diff range for the push
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+
+          # If BEFORE is all zeros (rare), fall back to comparing against remote default
+          if [[ "$BEFORE" =~ ^0+$ ]]; then
+            git fetch origin basicsofProgramming26
+            CHANGED="$(git diff --name-only origin/basicsofProgramming26...$AFTER)"
+          else
+            CHANGED="$(git diff --name-only "$BEFORE" "$AFTER")"
+          fi
+
+          echo "Changed files:"
+          echo "$CHANGED"
+
+          # Decide parts based on touched files (student work)
+          PARTS=""
+          for p in part1 part2 part3 part4 part6; do
+            if echo "$CHANGED" | grep -qE "^${p}/"; then
+              PARTS="${PARTS} ${p}"
+            fi
+          done
+
+          PARTS="$(echo "$PARTS" | xargs)"  # trim
+          if [ -z "$PARTS" ]; then
+            echo "No part1/2/3/4/6 changes detected -> skip grading."
+            echo "should_grade=false" >> "$GITHUB_OUTPUT"
+            echo "parts_to_grade=" >> "$GITHUB_OUTPUT"
+          else
+            echo "Will grade parts: $PARTS"
+            echo "should_grade=true" >> "$GITHUB_OUTPUT"
+            echo "parts_to_grade=$PARTS" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Restore protected instructor files if changed
         run: |
           set -e
 
@@ -31,7 +74,7 @@ jobs:
             "LOCAL_SETUP_GUIDE.md"
             ".gitignore"
 
-            ".github/workflows/restore-protected.yml"
+            ".github/workflows/restore-then-grade.yml"
 
             "part1/grade_part1.py"
             "part2/grade_part2.py"
@@ -43,7 +86,6 @@ jobs:
           NEED_RESTORE=0
 
           for f in "${PROTECTED_FILES[@]}"; do
-            # check file exists in instructor branch
             if git cat-file -e "origin/basicsofProgramming26:$f" 2>/dev/null; then
               if ! git diff --quiet origin/basicsofProgramming26 -- "$f"; then
                 echo "Restoring: $f"
@@ -57,8 +99,7 @@ jobs:
             exit 0
           fi
 
-          echo "Restoring files from instructor branch..."
-
+          echo "Restoring protected files from origin/basicsofProgramming26..."
           git checkout origin/basicsofProgramming26 -- "${PROTECTED_FILES[@]}"
 
           git config user.name "github-classroom-bot"
@@ -67,3 +108,51 @@ jobs:
           git add "${PROTECTED_FILES[@]}"
           git commit -m "Restore protected instructor files" || exit 0
           git push
+
+  grade:
+    needs: restore
+    # Skip grading on the restore commit AND skip when no relevant parts changed
+    if: ${{ github.event.head_commit.message != 'Restore protected instructor files' && needs.restore.outputs.should_grade == 'true' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # If restore pushed a commit, grade the latest branch tip
+      - name: Update to latest branch tip
+        run: |
+          BRANCH="${GITHUB_REF_NAME}"
+          git fetch origin "${BRANCH}"
+          git checkout "${BRANCH}"
+          git reset --hard "origin/${BRANCH}"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies (optional)
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Run only the graders for changed parts
+        run: |
+          set -e
+          PARTS="${{ needs.restore.outputs.parts_to_grade }}"
+          echo "Parts to grade: $PARTS"
+
+          for p in $PARTS; do
+            case "$p" in
+              part1) python part1/grade_part1.py ;;
+              part2) python part2/grade_part2.py ;;
+              part3) python part3/grade_part3.py ;;
+              part4) python part4/grade_part4.py ;;
+              part6) python part6/grade_part6.py ;;
+              *) echo "Unknown part: $p" ;;
+            esac
+          done
