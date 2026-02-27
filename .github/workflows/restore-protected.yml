@@ -1,4 +1,4 @@
-name: Restore protected files then grade (instructor-branch)
+name: Restore protected instructor files
 
 on:
   push:
@@ -8,9 +8,7 @@ permissions:
 
 jobs:
   restore:
-    # Don't run this workflow if someone pushes to the instructor branch,
-    # and avoid infinite loop from the bot's restore commit.
-    if: ${{ github.ref_name != 'instructor' && github.event.head_commit.message != 'Restore protected instructor files' }}
+    if: ${{ github.event.head_commit.message != 'Restore protected instructor files' }}
     runs-on: ubuntu-latest
 
     outputs:
@@ -23,54 +21,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Fetch instructor branch (source of truth)
+      - name: Fetch default branch (source of truth)
         run: |
-          git fetch origin instructor:refs/remotes/origin/instructor
+          git fetch origin basicsofProgramming26:refs/remotes/origin/basicsofProgramming26
 
-      - name: Detect which parts changed in this push
-        id: detect
-        run: |
-          set -e
-          BEFORE="${{ github.event.before }}"
-          AFTER="${{ github.sha }}"
-
-          # compute changed files for this push
-          if [[ "$BEFORE" =~ ^0+$ ]]; then
-            CHANGED="$(git diff --name-only HEAD~1 "$AFTER" || true)"
-          else
-            CHANGED="$(git diff --name-only "$BEFORE" "$AFTER" || true)"
-          fi
-
-          echo "Changed files:"
-          echo "$CHANGED"
-
-          # Decide parts based on touched files
-          PARTS=""
-          for p in part1 part2 part3 part4 part6; do
-            if echo "$CHANGED" | grep -qE "^${p}/"; then
-              PARTS="${PARTS} ${p}"
-            fi
-          done
-
-          PARTS="$(echo "$PARTS" | xargs)"
-          if [ -z "$PARTS" ]; then
-            echo "should_grade=false" >> "$GITHUB_OUTPUT"
-            echo "parts_to_grade=" >> "$GITHUB_OUTPUT"
-          else
-            echo "should_grade=true" >> "$GITHUB_OUTPUT"
-            echo "parts_to_grade=$PARTS" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Restore protected instructor files if changed
+      - name: Restore grading scripts if changed
         run: |
           set -e
 
           PROTECTED_FILES=(
-            "README.md"
-            "LOCAL_SETUP_GUIDE.md"
-            ".gitignore"
-            ".github/workflows/restore-then-grade.yml"
-
             "part1/grade_part1.py"
             "part2/grade_part2.py"
             "part3/grade_part3.py"
@@ -79,13 +38,11 @@ jobs:
           )
 
           NEED_RESTORE=0
+
           for f in "${PROTECTED_FILES[@]}"; do
-            # only consider files that exist in instructor branch
-            if git cat-file -e "origin/instructor:$f" 2>/dev/null; then
-              if ! git diff --quiet origin/instructor -- "$f"; then
-                echo "Restoring: $f"
-                NEED_RESTORE=1
-              fi
+            if ! git diff --quiet origin/basicsofProgramming26 -- "$f"; then
+              echo "Will restore: $f"
+              NEED_RESTORE=1
             fi
           done
 
@@ -102,44 +59,3 @@ jobs:
           git add "${PROTECTED_FILES[@]}"
           git commit -m "Restore protected instructor files" || exit 0
           git push
-
-  grade:
-    needs: restore
-    if: ${{ github.ref_name != 'instructor' && github.event.head_commit.message != 'Restore protected instructor files' && needs.restore.outputs.should_grade == 'true' }}
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      # If restore pushed a commit, grade the latest branch tip
-      - name: Update to latest branch tip
-        run: |
-          BRANCH="${GITHUB_REF_NAME}"
-          git fetch origin "${BRANCH}"
-          git checkout "${BRANCH}"
-          git reset --hard "origin/${BRANCH}"
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Run only the graders for changed parts
-        run: |
-          set -e
-          PARTS="${{ needs.restore.outputs.parts_to_grade }}"
-          echo "Parts to grade: $PARTS"
-
-          for p in $PARTS; do
-            case "$p" in
-              part1) python part1/grade_part1.py ;;
-              part2) python part2/grade_part2.py ;;
-              part3) python part3/grade_part3.py ;;
-              part4) python part4/grade_part4.py ;;
-              part6) python part6/grade_part6.py ;;
-              *) echo "Unknown part: $p" ;;
-            esac
-          done
