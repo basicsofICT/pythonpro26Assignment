@@ -8,24 +8,31 @@ permissions:
 
 jobs:
   restore:
+    # prevent infinite loop after restore commit
     if: ${{ github.event.head_commit.message != 'Restore protected instructor files' }}
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Fetch default branch (source of truth)
+      - name: Fetch instructor default branch
         run: |
           git fetch origin basicsofProgramming26:refs/remotes/origin/basicsofProgramming26
 
-      - name: Restore grading scripts if changed
+      - name: Restore protected instructor files
         run: |
           set -e
 
           PROTECTED_FILES=(
+            "README.md"
+            "LOCAL_SETUP_GUIDE.md"
+            ".gitignore"
+
+            ".github/workflows/restore-protected.yml"
+
             "part1/grade_part1.py"
             "part2/grade_part2.py"
             "part3/grade_part3.py"
@@ -34,19 +41,24 @@ jobs:
           )
 
           NEED_RESTORE=0
+
           for f in "${PROTECTED_FILES[@]}"; do
-            if ! git diff --quiet origin/basicsofProgramming26 -- "$f"; then
-              echo "Will restore: $f"
-              NEED_RESTORE=1
+            # check file exists in instructor branch
+            if git cat-file -e "origin/basicsofProgramming26:$f" 2>/dev/null; then
+              if ! git diff --quiet origin/basicsofProgramming26 -- "$f"; then
+                echo "Restoring: $f"
+                NEED_RESTORE=1
+              fi
             fi
           done
 
           if [ "$NEED_RESTORE" -eq 0 ]; then
-            echo "No protected file changes detected."
+            echo "No protected files modified."
             exit 0
           fi
 
-          echo "Restoring protected files from origin/basicsofProgramming26..."
+          echo "Restoring files from instructor branch..."
+
           git checkout origin/basicsofProgramming26 -- "${PROTECTED_FILES[@]}"
 
           git config user.name "github-classroom-bot"
