@@ -118,7 +118,7 @@ def write_marksheet(state: dict, user: str | None) -> None:
     MARKSHEET_DIR.mkdir(parents=True, exist_ok=True)
     lines = []
     title_name = user if user else "Student"
-    lines.append("# Fundamentals of Programming")
+    lines.append("# Basics of Programming")
     lines.append("")
     lines.append(f"## Hi {title_name}, check your scores below!")
     lines.append("")
@@ -283,10 +283,20 @@ def run_task(pyfile: Path, input_data: str = ""):
     except Exception as e:
         return 1, "", str(e)
 
+def extract_task_number(filename: str) -> int:
+    """Extract the task number from a filename like '12_list.py' -> 12"""
+    try:
+        # Handle filenames like "4.1.1_line.py" -> extract 4
+        parts = filename.split('_')[0].split('.')
+        return int(parts[0])
+    except (ValueError, IndexError):
+        return 999  # Put files without numbers at the end
+
 def grade_part4():
     state = load_state()
     prev = state.get("parts", {}).get("4", {}).get("tasks", {})
     results = {}
+    task_details = {}
     part_score = 0
     all_tasks = list(EXPECTED.keys()) + list(INTERACTIVE.keys())
     total_tasks = len(all_tasks)
@@ -296,7 +306,7 @@ def grade_part4():
         return
 
     print("Grading Part 4")
-    print("-" * 40)
+    print()
 
     for fname, expected in EXPECTED.items():
         path = ROOT / fname
@@ -304,7 +314,11 @@ def grade_part4():
         # Check if file has actual implementation
         if not has_implementation(path):
             results[fname] = False
-            print(f"{fname:30}  FAIL (no implementation)")
+            task_details[fname] = {
+                "status": "FAIL",
+                "message": "(no implementation)",
+                "passed": False
+            }
             continue
         
         code, out, err = run_task(path)
@@ -312,15 +326,20 @@ def grade_part4():
         passed = (code == 0 and passed_now)
         results[fname] = bool(passed)
         status = "PASS" if passed else "FAIL"
-        if passed: part_score += 1
-        print(f"{fname:30}  {status}")
-        if not passed:
+        if passed:
+            part_score += 1
+            task_details[fname] = {"status": status, "passed": True}
+        else:
             exp = expected.replace("\n", "\\n")
             got = (out or "").replace("\n", "\\n")
-            print(f"  expected: {exp}")
-            print(f"  got     : {got}")
+            message = f"  expected: {exp}\n  got     : {got}"
             if err:
-                print(f"  stderr  : {err.strip()}")
+                message += f"\n  stderr  : {err.strip()}"
+            task_details[fname] = {
+                "status": status,
+                "message": message,
+                "passed": False
+            }
 
     for fname, test_spec in INTERACTIVE.items():
         path = ROOT / fname
@@ -328,7 +347,11 @@ def grade_part4():
         # Check if file has actual implementation
         if not has_implementation(path):
             results[fname] = False
-            print(f"{fname:30}  FAIL (no implementation)")
+            task_details[fname] = {
+                "status": "FAIL",
+                "message": "(no implementation)",
+                "passed": False
+            }
             continue
         
         input_str = "\n".join(test_spec["inputs"]) + "\n"
@@ -338,24 +361,60 @@ def grade_part4():
         passed = (code == 0 and passed_now)
         results[fname] = bool(passed)
         status = "PASS" if passed else "FAIL"
-        if passed: part_score += 1
-        print(f"{fname:30}  {status}")
-        if not passed:
+        if passed:
+            part_score += 1
+            task_details[fname] = {"status": status, "passed": True}
+        else:
             exp = expected.replace("\n", "\\n")
             got = (out or "").replace("\n", "\\n")
-            print(f"  expected: {exp}")
-            print(f"  got     : {got}")
+            message = f"  expected: {exp}\n  got     : {got}"
             if err:
-                print(f"  stderr  : {err.strip()}")
+                message += f"\n  stderr  : {err.strip()}"
+            task_details[fname] = {
+                "status": status,
+                "message": message,
+                "passed": False
+            }
+
+    # Print results sorted by task number in table format
+    sorted_tasks = sorted(task_details.keys(), key=extract_task_number)
+    
+    # Count pass/fail
+    passed_count = sum(1 for t in task_details.values() if t['passed'])
+    failed_count = total_tasks - passed_count
+    
+    # Print summary
+    print(f"Summary: {passed_count} passed, {failed_count} failed out of {total_tasks} tasks")
+    print()
+    
+    # Print table header
+    print("+" + "-" * 6 + "+" + "-" * 46 + "+" + "-" * 12 + "+")
+    print(f"| {'Task':<4} | {'Description':<44} | {'Status':<10} |")
+    print("+" + "=" * 6 + "+" + "=" * 46 + "+" + "=" * 12 + "+")
+    
+    # Print each task
+    for fname in sorted_tasks:
+        detail = task_details[fname]
+        task_num = extract_task_number(fname)
+        task_name = fname.replace('.py', '').replace('_', ' ')[fname.index('_')+1:] if '_' in fname else fname
+        # Truncate long names
+        if len(task_name) > 43:
+            task_name = task_name[:40] + "..."
+        
+        # Status with symbol
+        status_symbol = "[PASS]" if detail['passed'] else "[FAIL]"
+        
+        print(f"| {task_num:>4} | {task_name:<44} | {status_symbol:<10} |")
+        print("+" + "-" * 6 + "+" + "-" * 46 + "+" + "-" * 12 + "+")
 
     state.setdefault("parts", {})
     state["parts"]["4"] = {"tasks": results, "score": part_score, "total": total_tasks}
-    # Exclude Part 5 from cumulative total
-    state["total_points"] = sum(p.get("score", 0) for k, p in state["parts"].items() if k != "5")
+    # Calculate cumulative total
+    state["total_points"] = sum(p.get("score", 0) for k, p in state["parts"].items())
     save_state(state)
     write_marksheet(state, get_display_user())
 
-    print("-" * 40)
+    print()
     user = get_display_user()
     if user:
         print(f"{user}: your Part 4 score is {part_score}/{total_tasks}")

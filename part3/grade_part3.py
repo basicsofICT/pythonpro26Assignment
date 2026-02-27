@@ -197,7 +197,7 @@ def write_marksheet(state: dict, user: str | None) -> None:
     MARKSHEET_DIR.mkdir(parents=True, exist_ok=True)
     lines = []
     title_name = user if user else "Student"
-    lines.append("# Fundamentals of Programming")
+    lines.append("# Basics of Programming")
     lines.append("")
     lines.append(f"## Hi {title_name}, check your scores below!")
     lines.append("")

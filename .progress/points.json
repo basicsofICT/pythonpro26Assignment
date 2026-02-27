@@ -148,63 +148,22 @@
       "score": 0,
       "total": 37
     },
-    "5": {
-      "tasks": {
-        "1_the_longest_string.py": false,
-        "2_number_of_matching_elements.py": false,
-        "3_go.py": false,
-        "4_sudoku_check_row.py": false,
-        "5_sudoku_check_column.py": false,
-        "6_sudoku_check_block.py": false,
-        "7_sudoku_check_grid.py": false,
-        "8_items_multiplied_by_two.py": false,
-        "9_remove_the_smallest.py": false,
-        "12_tic_tac_toe.py": false,
-        "13_transpose_matrix.py": false,
-        "14_times_ten.py": false,
-        "15_factorials.py": false,
-        "16_histogram.py": false,
-        "19_invert_dictionary.py": false,
-        "20_numbers_spelled_out.py": false,
-        "21_movie_database.py": false,
-        "22_find_movies.py": false,
-        "23_create_tuple.py": false,
-        "24_the_oldest_person.py": false,
-        "25_older_people.py": false,
-        "26_student_database.py": false,
-        "27_square_of_letters.py": false,
-        "17_phone_book_v1.py": false,
-        "18_phone_book_v2.py": false
-      },
-      "score": 0,
-      "total": 25
-    },
     "6": {
       "tasks": {
         "1_largest_number.py": false,
-        "2_fruit_market.py": false,
-        "3_matrix.py": false,
-        "9_city_bikes.py": false,
         "10_inscription.py": false,
-        "12_filtering_contents.py": false,
-        "13_store_personal_data.py": false,
-        "18_parameter_validation.py": false,
         "4_course_grading_part1.py": false,
         "5_course_grading_part2.py": false,
-        "6_course_grading_part3.py": false,
         "7_spell_checker.py": false,
-        "8_recipe_search.py": false,
         "11_diary.py": false,
-        "14_course_grading_part4.py": false,
         "15_word_search.py": false,
         "16_dictionary_file.py": false,
-        "17_reading_input.py": false,
-        "19_incorrect_lottery.py": true
+        "17_reading_input.py": false
       },
-      "score": 1,
-      "total": 19
+      "score": 0,
+      "total": 9
     }
   },
-  "total_points": 1,
-  "updated_at": "2026-02-27 13:34:48"
+  "total_points": 0,
+  "updated_at": "2026-02-27 13:57:15"
 }

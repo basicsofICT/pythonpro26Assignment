@@ -1,9 +1,9 @@
-# Python Programming Course - Complete Task List
+# Basics of Programming - Complete Task List
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 
-***A comprehensive auto-graded Python programming tasks repo with **168 exercises** across 6 parts.***
+***A comprehensive auto-graded Python programming tasks repo with **133 exercises** across 5 parts.***
 
 This repository contains the aligned, auto-graded exercises for the course [Basics of Programming - Python](https://dipaish.github.io/programming-24/) which is adapted from the University of Helsinki’s [Introduction to Programming (Programming MOOC)](https://programming-24.mooc.fi/) course.
 
@@ -16,10 +16,9 @@ This repository contains the aligned, auto-graded exercises for the course [Basi
 | [Part 2](#part-2-conditionals--loops-22-tasks) | Conditionals & Loops | 22 | [Part 2](https://dipaish.github.io/programming-24/part-2)  |
 | [Part 3](#part-3-loops--functions-34-tasks) | Loops & Functions | 34 | [Part 3](https://dipaish.github.io/programming-24/part-3)  |
 | [Part 4](#part-4-functions--lists-37-tasks) | Functions & Lists | 37 | [Part 4](https://dipaish.github.io/programming-24/part-4)  |
-| [Part 5](#part-5-advanced-topics-25-tasks) | Advanced Topics (Optional*) | 25 | [Part 5](https://dipaish.github.io/programming-24/part-5)  |
-| [Part 6](#part-6-file-handling--errors-19-tasks) | File Handling & Errors | 19 | [Part 6](https://dipaish.github.io/programming-24/part-6) |
+| [Part 6](#part-6-file-handling--errors-9-tasks) | File Handling & Errors | 9 | [Part 6](https://dipaish.github.io/programming-24/part-6) |
 
-**Total: 168 exercises** (**Part 5** is optional and not counted toward the total score)
+**Total: 133 exercises**
 
 ## 🚀 Quick Start Options
 
