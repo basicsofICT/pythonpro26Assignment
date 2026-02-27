@@ -199,12 +199,12 @@
         "15_word_search.py": false,
         "16_dictionary_file.py": false,
         "17_reading_input.py": false,
-        "19_incorrect_lottery.py": false
+        "19_incorrect_lottery.py": true
       },
-      "score": 0,
+      "score": 1,
       "total": 19
     }
   },
-  "total_points": 0,
-  "updated_at": "2026-02-26 22:05:44"
+  "total_points": 1,
+  "updated_at": "2026-02-27 13:34:48"
 }

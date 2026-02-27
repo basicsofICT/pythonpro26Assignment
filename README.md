@@ -78,27 +78,27 @@ This repository contains the aligned, auto-graded exercises for the course [Basi
 
 ## 🎯 How to work on the tasks?
 
-1. Navigate to each part's folder (e.g., `part1/part1Exercises/tasks/`)
+1. Navigate to each part's folder (e.g., `part1/`)
 2. Complete the exercises in the task files
-3. Run the grader: `python grade_partX.py`
+3. Run the grader: `python grade_partX.py` (from within the part folder)
 4. Check your progress in `.progress/marksheet.md`
 
 Each task is worth **1 point**. Your live progress is tracked automatically in `.progress/marksheet.md`.
 
 
 ### ✅ What You Should Edit:
-- **All task files**: `1_emoticon.py`, `2_seven_brothers.py`, `1.1.1_extra_space.py`, etc.
+- **All task files**: `1_emoticon.py`, `2_seven_brothers.py`, `11_extraspace.py`, etc.
 - Work on the exercises and implement your solutions
 
 ### ❌ What You Should NOT Edit:
 - **Grader files**: `grade_part1.py`, `grade_part2.py`, etc.
-- **README files**: All documentation files
+- **Main README**: This documentation file
 - **Task specification files**: `p*Alltasks.md`, `part*alltasks.md`
 - **Progress tracking**: `.progress/` folder contents
 
 > **⚠️ Important:** Solutions are auto graded. Modifying them compromises learning and accurate self assessment. 
 
-> **🚨 Warning:** Modifying grader files, README files, or task specification files will trigger GitHub notifications to your teachers. Any unauthorized changes to these files may require you to reaccept the assignment and redo your tasks. Only edit the task solution files (e.g., `1_emoticon.py`, `2_seven_brothers.py`).
+> **🚨 Warning:** Modifying grader files, the main README, or task specification files will trigger GitHub notifications to your teachers. Any unauthorized changes to these files may require you to reaccept the assignment and redo your tasks. Only edit the task solution files (e.g., `1_emoticon.py`, `2_seven_brothers.py`).
 
 ---
 
