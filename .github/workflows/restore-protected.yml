@@ -1,0 +1,57 @@
+name: Restore protected instructor files
+
+on:
+  push:
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    if: ${{ github.event.head_commit.message != 'Restore protected instructor files' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch default branch (source of truth)
+        run: |
+          git fetch origin basicsofProgramming26:refs/remotes/origin/basicsofProgramming26
+
+      - name: Restore grading scripts if changed
+        run: |
+          set -e
+
+          PROTECTED_FILES=(
+            "part1/grade_part1.py"
+            "part2/grade_part2.py"
+            "part3/grade_part3.py"
+            "part4/grade_part4.py"
+            "part6/grade_part6.py"
+          )
+
+          NEED_RESTORE=0
+          for f in "${PROTECTED_FILES[@]}"; do
+            if ! git diff --quiet origin/basicsofProgramming26 -- "$f"; then
+              echo "Will restore: $f"
+              NEED_RESTORE=1
+            fi
+          done
+
+          if [ "$NEED_RESTORE" -eq 0 ]; then
+            echo "No protected file changes detected."
+            exit 0
+          fi
+
+          echo "Restoring protected files from origin/basicsofProgramming26..."
+          git checkout origin/basicsofProgramming26 -- "${PROTECTED_FILES[@]}"
+
+          git config user.name "github-classroom-bot"
+          git config user.email "noreply@github.com"
+
+          git add "${PROTECTED_FILES[@]}"
+          git commit -m "Restore protected instructor files" || exit 0
+          git push
